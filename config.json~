@@ -1,0 +1,201 @@
+{
+    "port": 9305,
+    "address": "0.0.0.0",
+    "fileLogLevel": "info",
+    "logFileName": "./belrium.log",
+    "logAppend": false,
+    "consoleLogLevel": "log",
+    "trustProxy": false,
+    "topAccounts": false,
+    "db": {
+        "host": "localhost",
+        "port": 5432,
+        "database": "bel",
+        "user": "postgres",
+        "password": "postgres",
+        "poolSize": 95,
+        "poolIdleTimeout": 30000,
+        "reapIntervalMillis": 1000,
+        "logEvents": [
+            "error"
+        ]
+    },
+    "api": {
+        "enabled": true,
+        "access": {
+            "public": true,
+            "whiteList": [
+                "127.0.0.1",
+                "192.168.3.206"
+            ]
+        },
+        "options": {
+            "limits": {
+                "max": 0,
+                "delayMs": 0,
+                "delayAfter": 0,
+                "windowMs": 60000
+            }
+        }
+    },
+    "peers": {
+        "enabled": true,
+        "list": [],
+        "access": {
+            "blackList": []
+        },
+        "options": {
+            "limits": {
+                "max": 0,
+                "delayMs": 0,
+                "delayAfter": 0,
+                "windowMs": 60000
+            },
+            "timeout": 5000
+        }
+    },
+    "broadcasts": {
+        "broadcastInterval": 5000,
+        "broadcastLimit": 20,
+        "parallelLimit": 20,
+        "releaseLimit": 25,
+        "relayLimit": 2
+    },
+    "transactions": {
+        "maxTxsPerQueue": 1000
+    },
+    "walletVerificationAPI": {
+        "enable": true
+    },
+    "forging": {
+        "force": true,
+        "secret": [
+            "boil match daring glue script birth venture salad mouse pumpkin quick medal",
+            "alter world athlete prison margin pupil soup reveal element below enter when",
+            "dog robot reward congress skirt fee burst special desert drop rally happy",
+            "castle divorce siege agree foot oven equal cherry merry tattoo fitness absurd",
+            "seminar spider cruise remember egg simple milk catalog animal miss morning sock",
+            "prevent frozen grace veteran cabin syrup skill tenant sausage post wave tongue",
+            "release style quality always enter sugar eager wool alien cry cry learn",
+            "such impulse sell gentle zone laugh cute waste lion shadow portion spare",
+            "enough flee lobster visual vanish early over tenant margin imitate loud elevator",
+            "million since attend visual equip large lottery maid impact tunnel wrist crumble",
+            "giant anger similar sphere december wagon impact night girl city style drill",
+            "child slow mansion item random clock kid poet mask correct planet fun",
+            "special decrease stamp sibling thrive joy dirt birth circle climb limb fall",
+            "enhance coin visit cat involve loop perfect goat deal author kind moment",
+            "diamond nasty about slight profit affair west master tray budget cherry fall",
+            "flee chef erupt emerge man quiz wisdom plunge patch empower rural buzz",
+            "garment regular scare usual donor damage dog mystery volume shove now fancy",
+            "pelican eight sponsor cream walnut know elevator vocal reopen track pluck endorse",
+            "describe gas rare clarify evoke surface day gallery put joke moral mixed",
+            "angry industry fly shoot jungle annual coyote problem balcony false round refuse",
+            "soccer muscle coffee topic rate canyon sock allow knee economy velvet marriage",
+            "select repeat tooth false current session artefact country lake undo marriage maze",
+            "indicate celery reveal useful round decline protect eternal gravity quit collect elite",
+            "emerge holiday torch pig moral level seat kit grid alien hungry axis",
+            "swear prize injury cloud echo place thing mean round half stamp vault",
+            "couple typical churn monkey sand make vanish trouble height mention someone laundry",
+            "degree shuffle tongue bar fox hungry raw various nature space small junior",
+            "hurdle wing gift rib man uncle humble friend fitness gravity pear fox",
+            "slam nerve lumber push right sweet pumpkin leisure art recycle priority shop",
+            "symptom stay pipe ranch runway metal material since traffic orchard destroy normal",
+            "wine cement must betray shine claim alert spike circle pair symbol soccer",
+            "slide lyrics dad drive obey author profit educate hill sell abstract basket",
+            "dumb unhappy borrow produce basic repair peace thunder only beauty weasel galaxy",
+            "voyage clutch flower remain west abandon soup wire people verb clarify bounce",
+            "tank force symptom spawn wrestle vivid cart illegal matrix cereal distance obscure",
+            "cry clay waste reform forward squeeze trophy plate drip olive congress morning",
+            "confirm match army jump sand emerge confirm earn glad harvest city pelican",
+            "range dismiss major wealth shy employ finish luggage cradle despair ridge infant",
+            "tray notice noise upper fence photo helmet quarter add total shove flock",
+            "social loyal phone salmon unit globe online place run gasp hedgehog improve",
+            "main shadow pigeon gather allow syrup hard report bus impulse jeans phrase",
+            "void eye very vital tuna fine know crucial cabbage spray balance sponsor",
+            "witness country notice oxygen true panic body door square true copper prosper",
+            "physical flash crumble above poem industry vacuum rebel cause walk sausage water",
+            "rain file slender time real seat knock sponsor forum work traffic true",
+            "knock merge party live sad punch blind radar mad wife satisfy secret",
+            "govern suggest flavor element anxiety menu scrap pigeon snow ridge relief dragon",
+            "circle fever fiscal toss amazing dial banner near avoid provide rail area",
+            "scene enrich slide ugly absorb spread floor curious season dial satisfy april",
+            "save bench unfold jacket affair village worth quiz cause acoustic stairs fade",
+            "hill cup zoo gloom travel upgrade region bundle knee phrase twin speak",
+            "assault mosquito harbor indoor among result source oxygen mesh lawn laundry glass",
+            "fog expire float gun stomach riot hybrid math furnace whip image order",
+            "mule still monster razor myself misery lawn maid fortune pair spatial fork",
+            "abandon sound dawn arctic present olympic net lucky ostrich price digital time",
+            "reason doll party ozone funny peace magnet around audit syrup decline crazy",
+            "extra want cushion heart polar umbrella force submit duck route group prosper",
+            "vehicle flight return void artefact record dizzy robust habit green chicken naive",
+            "sausage creek accident garlic calm tiger seek fitness control alter original before",
+            "bottom wink wrong day runway jacket dash copper film possible pet citizen",
+            "middle meadow way very kitchen love praise method cannon stairs pepper stay",
+            "merge alien trick honey virtual expire position famous oil cash disorder educate",
+            "plunge ridge toilet reflect odor opinion assume shine episode fiction brave rice",
+            "second firm move nephew toy glance enact forest board curve below body",
+            "fetch enemy window prison drink arctic ceiling axis skull name humble always",
+            "lift seminar mango rebuild silk abuse swim time forget behave neglect skin",
+            "install rich will vanish pilot disease valid accident practice wall welcome source",
+            "cool vivid village raven example olive tower patient urban laundry draw announce",
+            "will tattoo limit leisure census bar account tray donate present happy jewel",
+            "cement purpose gaze style local faculty jar crumble impact omit ski walnut",
+            "tired history valve cradle example silly online design suit acid random such",
+            "mobile mechanic arch lava deposit giggle person first cradle space increase expect",
+            "midnight street silver trim wedding student thing smile cloud into reward still",
+            "ice impact town find aware cluster this fox learn plug sand virus",
+            "million mad sell install defense quick mind pitch armed warfare balance usual",
+            "relief idea acid pen cook climb invest shed gauge swamp auto clown",
+            "scorpion siren emerge busy pony toast short enter laptop moral genre predict",
+            "raw maximum warfare lobster priority quiz chicken draw original subway enact era",
+            "post stove artefact immense bean hobby hen parade bachelor brick vapor velvet",
+            "laptop hurt split basic garment describe sunset churn flat attitude deposit thrive",
+            "allow shrug other forest harbor chase erupt rookie genre fade faculty over",
+            "addict evoke medal credit patrol keep fine cotton flag vacant nut gas",
+            "border toy paddle tomato young love vocal record net decline damp frozen",
+            "drift voyage tennis cherry hungry rival metal satoshi public trigger frown equal",
+            "kidney bullet range satisfy author tonight knife minor kite corn announce situate",
+            "address embark begin nurse victory level defy custom safe any electric park",
+            "lumber use holiday indoor shop property card multiply hero slender cabbage solid",
+            "broom spy learn harvest much barrel drift pact air fury enrich crouch",
+            "olive stock sunset thunder depend nut tomorrow welcome bronze kind hurt fall",
+            "hair toy sea useless pink mind lesson again time sound struggle bomb",
+            "major enrich decade picture burst side episode melody spot civil monkey hotel",
+            "elder mule employ now predict force ketchup fame zero cousin bar dinosaur",
+            "cage space sudden else guitar sugar vital movie magic insect sister glimpse",
+            "clutch pattern sugar slice globe track story glue online require endorse crunch",
+            "pistol swim match mistake veteran member alone project panic decade veteran test",
+            "near peanut very giraffe address lion raw monitor work ivory under seminar",
+            "crack apart limit vacant donkey bomb guilt people often cabin pig blast",
+            "truth knock regular praise border absurd produce roast peace blush famous bid",
+            "bind misery balcony banner section entire light whip swear vote gallery census",
+            "ship squirrel canoe urge pudding net grant park uniform pledge review scorpion",
+            "hood hint stick before daring rib century veteran shop giraffe orbit tornado"
+        ],
+        "access": {
+            "whiteList": [
+                "127.0.0.1",
+                "192.168.3.206"
+            ]
+        }
+    },
+    "loading": {
+        "verifyOnLoading": false,
+        "loadPerIteration": 5000
+    },
+    "ssl": {
+        "enabled": false,
+        "options": {
+            "port": 9306,
+            "address": "0.0.0.0",
+            "key": "./ssl/belrium.key",
+            "cert": "./ssl/belrium.crt"
+        }
+    },
+    "dapp": {
+        "masterrequired": false,
+        "masterpassword": "3g4T2Bz5ck5x",
+        "autoexec": []
+    },
+    "nethash": "7337a324ef27e1e234d1e9018cacff7d4f299a09c2df9be460543b8f7ef652f1"
+}

@@ -1,0 +1,6 @@
+Starting ./shift_manager.bash... 
+Date: Tue Jul 11 13:25:06 IST 2017
+
+[31merror[39m:   Forever cannot find process with id: /home/pankaj/Documents/BelerumCodebase/Belrium/app.js
+Already up-to-date.
+npm WARN deprecated bower@1.7.9: ..psst! While Bower is maintained, we recommend Yarn and Webpack for *new* front-end projects! Yarn's advantage is security and reliability, and Webpack's is support for both CommonJS and AMD projects. Currently there's no migration path, but please help to create it: https://github.com/bower/bower/issues/2467

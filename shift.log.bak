@@ -1,0 +1,167 @@
+[inf] 2017-06-29 12:27:25 | Shift started: 0.0.0.0:9305
+[inf] 2017-06-29 12:27:25 | Modules ready and launched
+[inf] 2017-06-29 12:27:25 | Blocks 306
+[inf] 2017-06-29 12:27:25 | Genesis block matched with database
+[inf] 2017-06-29 12:27:25 | Blockchain ready
+[inf] 2017-06-29 12:27:25 | Loading 1 delegates from config
+[inf] 2017-06-29 12:27:25 | Forging enabled on account: 6232988412937045830S
+[inf] 2017-06-29 12:27:25 | Imported peers from database - {"count":2}
+[inf] 2017-06-29 12:27:25 | Starting sync
+[inf] 2017-06-29 12:27:25 | Looking for common block with: 192.168.4.25:9305
+[inf] 2017-06-29 12:27:25 | Found common block: 6179969265488792431 with: 192.168.4.25:9305
+[inf] 2017-06-29 12:27:25 | Loading blocks from: 192.168.4.25:9305
+[inf] 2017-06-29 12:27:25 | Finished sync
+[inf] 2017-06-29 12:27:25 | Starting sync
+[inf] 2017-06-29 12:27:25 | Looking for common block with: 192.168.4.25:9305
+[inf] 2017-06-29 12:27:25 | Found common block: 6179969265488792431 with: 192.168.4.25:9305
+[inf] 2017-06-29 12:27:25 | Loading blocks from: 192.168.4.25:9305
+[inf] 2017-06-29 12:27:25 | Finished sync
+[inf] 2017-06-29 12:27:35 | Starting sync
+[inf] 2017-06-29 12:27:35 | Looking for common block with: 192.168.4.101:9305
+[inf] 2017-06-29 12:27:35 | Found common block: 6179969265488792431 with: 192.168.4.101:9305
+[inf] 2017-06-29 12:27:35 | Loading blocks from: 192.168.4.101:9305
+[inf] 2017-06-29 12:27:35 | Finished sync
+[inf] 2017-06-29 12:27:45 | Starting sync
+[inf] 2017-06-29 12:27:45 | Looking for common block with: 192.168.4.101:9305
+[inf] 2017-06-29 12:27:45 | Found common block: 6179969265488792431 with: 192.168.4.101:9305
+[inf] 2017-06-29 12:27:45 | Loading blocks from: 192.168.4.101:9305
+[inf] 2017-06-29 12:27:45 | Finished sync
+[inf] 2017-06-29 12:27:55 | Starting sync
+[inf] 2017-06-29 12:27:55 | Looking for common block with: 192.168.4.25:9305
+[inf] 2017-06-29 12:27:55 | Found common block: 6179969265488792431 with: 192.168.4.25:9305
+[inf] 2017-06-29 12:27:55 | Loading blocks from: 192.168.4.25:9305
+[inf] 2017-06-29 12:27:55 | Finished sync
+[inf] 2017-06-29 12:28:05 | Starting sync
+[inf] 2017-06-29 12:28:05 | Looking for common block with: 192.168.4.101:9305
+[inf] 2017-06-29 12:28:05 | Found common block: 6179969265488792431 with: 192.168.4.101:9305
+[inf] 2017-06-29 12:28:05 | Loading blocks from: 192.168.4.101:9305
+[inf] 2017-06-29 12:28:06 | Finished sync
+[inf] 2017-06-29 12:28:12 | Forged new block id: 15640081881468427728 height: 307 round: 154 slot: 1282596 reward:100000000
+[inf] 2017-06-29 12:29:07 | Forged new block id: 12530404853657921551 height: 308 round: 154 slot: 1282598 reward:100000000
+[inf] 2017-06-29 12:30:00 | Forged new block id: 113554465420048078 height: 309 round: 155 slot: 1282600 reward:100000000
+[inf] 2017-06-29 12:30:54 | Forged new block id: 3183727787872682094 height: 310 round: 155 slot: 1282602 reward:100000000
+[inf] 2017-06-29 12:31:48 | Forged new block id: 16459083877449274646 height: 311 round: 156 slot: 1282604 reward:100000000
+[inf] 2017-06-29 12:32:42 | Forged new block id: 12756720960176532142 height: 312 round: 156 slot: 1282606 reward:100000000
+[inf] 2017-06-29 12:33:37 | Forged new block id: 10588584129498324943 height: 313 round: 157 slot: 1282608 reward:100000000
+[inf] 2017-06-29 12:34:30 | Forged new block id: 4409974965587194045 height: 314 round: 157 slot: 1282610 reward:100000000
+[inf] 2017-06-29 12:35:24 | Forged new block id: 17115519100891780866 height: 315 round: 158 slot: 1282612 reward:100000000
+[inf] 2017-06-29 12:36:18 | Forged new block id: 5921478017284075450 height: 316 round: 158 slot: 1282614 reward:100000000
+[inf] 2017-06-29 12:37:12 | Forged new block id: 7752274392882850446 height: 317 round: 159 slot: 1282616 reward:100000000
+[inf] 2017-06-29 12:38:07 | Forged new block id: 13513049795143062424 height: 318 round: 159 slot: 1282618 reward:100000000
+[inf] 2017-06-29 12:39:00 | Forged new block id: 10577963052776411651 height: 319 round: 160 slot: 1282620 reward:100000000
+[inf] 2017-06-29 12:39:54 | Forged new block id: 14519429229258238912 height: 320 round: 160 slot: 1282622 reward:100000000
+[inf] 2017-06-29 12:40:48 | Forged new block id: 16654044276326088846 height: 321 round: 161 slot: 1282624 reward:100000000
+[inf] 2017-06-29 12:41:42 | Forged new block id: 9684034935769661991 height: 322 round: 161 slot: 1282626 reward:100000000
+[inf] 2017-06-29 12:42:36 | Forged new block id: 3523039807078689612 height: 323 round: 162 slot: 1282628 reward:100000000
+[inf] 2017-06-29 12:43:30 | Forged new block id: 6075551693147926903 height: 324 round: 162 slot: 1282630 reward:100000000
+[inf] 2017-06-29 12:44:24 | Forged new block id: 12182378453069664958 height: 325 round: 163 slot: 1282632 reward:100000000
+[inf] 2017-06-29 12:45:18 | Forged new block id: 671169080434167802 height: 326 round: 163 slot: 1282634 reward:100000000
+[inf] 2017-06-29 12:46:12 | Forged new block id: 9592548172726531339 height: 327 round: 164 slot: 1282636 reward:100000000
+[inf] 2017-06-29 12:47:06 | Forged new block id: 9112489939553257562 height: 328 round: 164 slot: 1282638 reward:100000000
+[inf] 2017-06-29 12:48:00 | Forged new block id: 17038498670325839032 height: 329 round: 165 slot: 1282640 reward:100000000
+[inf] 2017-06-29 12:48:54 | Forged new block id: 4360595753955800604 height: 330 round: 165 slot: 1282642 reward:100000000
+[inf] 2017-06-29 12:49:49 | Forged new block id: 10667550929691511095 height: 331 round: 166 slot: 1282644 reward:100000000
+[inf] 2017-06-29 12:50:42 | Forged new block id: 12642689831701459687 height: 332 round: 166 slot: 1282646 reward:100000000
+[inf] 2017-06-29 12:51:36 | Forged new block id: 16931150984208467856 height: 333 round: 167 slot: 1282648 reward:100000000
+[inf] 2017-06-29 12:52:30 | Forged new block id: 13555270937266489512 height: 334 round: 167 slot: 1282650 reward:100000000
+[inf] 2017-06-29 12:53:24 | Forged new block id: 9774667389279328943 height: 335 round: 168 slot: 1282652 reward:100000000
+[inf] 2017-06-29 12:54:19 | Forged new block id: 9939758814708101867 height: 336 round: 168 slot: 1282654 reward:100000000
+[inf] 2017-06-29 12:55:12 | Forged new block id: 10966482317552868636 height: 337 round: 169 slot: 1282656 reward:100000000
+[inf] 2017-06-29 12:56:06 | Forged new block id: 10776671397383569351 height: 338 round: 169 slot: 1282658 reward:100000000
+[inf] 2017-06-29 12:57:00 | Forged new block id: 2306930657596101287 height: 339 round: 170 slot: 1282660 reward:100000000
+[inf] 2017-06-29 12:57:54 | Forged new block id: 16367544814453264946 height: 340 round: 170 slot: 1282662 reward:100000000
+[inf] 2017-06-29 12:58:48 | Forged new block id: 17249610874755002226 height: 341 round: 171 slot: 1282664 reward:100000000
+[inf] 2017-06-29 12:59:42 | Forged new block id: 11587115945104182097 height: 342 round: 171 slot: 1282666 reward:100000000
+[inf] 2017-06-29 13:00:36 | Forged new block id: 12355597618448733827 height: 343 round: 172 slot: 1282668 reward:100000000
+[inf] 2017-06-29 13:01:30 | Forged new block id: 17811083083476192710 height: 344 round: 172 slot: 1282670 reward:100000000
+[inf] 2017-06-29 13:02:24 | Forged new block id: 13473032051944702455 height: 345 round: 173 slot: 1282672 reward:100000000
+[inf] 2017-06-29 13:03:18 | Forged new block id: 8893799090590008384 height: 346 round: 173 slot: 1282674 reward:100000000
+[inf] 2017-06-29 13:04:13 | Forged new block id: 12078759314143752911 height: 347 round: 174 slot: 1282676 reward:100000000
+[inf] 2017-06-29 13:05:06 | Forged new block id: 11107579305155740790 height: 348 round: 174 slot: 1282678 reward:100000000
+[inf] 2017-06-29 13:06:00 | Forged new block id: 13005112845395051746 height: 349 round: 175 slot: 1282680 reward:100000000
+[inf] 2017-06-29 13:06:54 | Forged new block id: 10286963640624855928 height: 350 round: 175 slot: 1282682 reward:100000000
+[inf] 2017-06-29 13:07:48 | Forged new block id: 1942050453459707445 height: 351 round: 176 slot: 1282684 reward:100000000
+[inf] 2017-06-29 13:08:43 | Forged new block id: 8554586368013877596 height: 352 round: 176 slot: 1282686 reward:100000000
+[inf] 2017-06-29 13:09:36 | Forged new block id: 826962784410535373 height: 353 round: 177 slot: 1282688 reward:100000000
+[inf] 2017-06-29 13:10:30 | Forged new block id: 505191665956821892 height: 354 round: 177 slot: 1282690 reward:100000000
+[inf] 2017-06-29 13:11:24 | Forged new block id: 1217826454325195638 height: 355 round: 178 slot: 1282692 reward:100000000
+[inf] 2017-06-29 13:12:18 | Forged new block id: 1461400601049875923 height: 356 round: 178 slot: 1282694 reward:100000000
+[inf] 2017-06-29 13:13:13 | Forged new block id: 7639321824184463700 height: 357 round: 179 slot: 1282696 reward:100000000
+[inf] 2017-06-29 13:14:06 | Forged new block id: 13014620630278514439 height: 358 round: 179 slot: 1282698 reward:100000000
+[inf] 2017-06-29 13:15:00 | Forged new block id: 8422241261114507600 height: 359 round: 180 slot: 1282700 reward:100000000
+[inf] 2017-06-29 13:15:54 | Forged new block id: 10458250240379187895 height: 360 round: 180 slot: 1282702 reward:100000000
+[inf] 2017-06-29 13:16:48 | Forged new block id: 9567652650541725539 height: 361 round: 181 slot: 1282704 reward:100000000
+[inf] 2017-06-29 13:16:59 | Removed peer - "192.168.4.101:9305"
+[ERR] 2017-06-29 13:16:59 | Discovering new peers failed - "EUNAVAILABLE Request failed GET http://192.168.4.101:9305/peer/list"
+[ERR] 2017-06-29 13:17:04 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2017-06-29 13:17:09 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2017-06-29 13:17:14 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2017-06-29 13:17:19 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2017-06-29 13:17:24 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2017-06-29 13:17:29 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2017-06-29 13:17:34 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2017-06-29 13:17:39 | Discovering new peers failed - "No acceptable peers found"
+[inf] 2017-06-29 13:17:43 | Forged new block id: 16828143041143558948 height: 362 round: 181 slot: 1282706 reward:100000000
+[inf] 2017-06-29 15:07:02 | Starting sync
+[ERR] 2017-06-29 15:07:02 | Discovering new peers failed - "No acceptable peers found"
+[inf] 2017-06-29 15:07:02 | Finished sync
+[inf] 2017-06-29 15:07:02 | Starting sync
+[inf] 2017-06-29 15:07:02 | Finished sync
+[inf] 2017-06-29 15:07:02 | Starting sync
+[inf] 2017-06-29 15:07:02 | Finished sync
+[inf] 2017-06-29 15:07:02 | Starting sync
+[inf] 2017-06-29 15:07:03 | Finished sync
+[inf] 2017-06-29 15:07:03 | Starting sync
+[inf] 2017-06-29 15:07:03 | Finished sync
+[ERR] 2017-06-29 15:07:03 | Sync timer - "Failed to find enough good peers"
+[inf] 2017-06-29 15:07:03 | Starting sync
+[inf] 2017-06-29 15:07:03 | Finished sync
+[inf] 2017-06-29 15:07:03 | Starting sync
+[inf] 2017-06-29 15:07:03 | Finished sync
+[inf] 2017-06-29 15:07:03 | Starting sync
+[inf] 2017-06-29 15:07:03 | Finished sync
+[inf] 2017-06-29 15:07:03 | Starting sync
+[inf] 2017-06-29 15:07:03 | Finished sync
+[inf] 2017-06-29 15:07:03 | Starting sync
+[inf] 2017-06-29 15:07:03 | Finished sync
+[ERR] 2017-06-29 15:07:03 | Sync timer - "Failed to find enough good peers"
+[inf] 2017-06-29 15:07:03 | Forged new block id: 1538821815791584926 height: 363 round: 182 slot: 1282948 reward:100000000
+[inf] 2017-06-29 15:07:07 | Removed peer - "192.168.4.25:9305"
+[ERR] 2017-06-29 15:07:07 | Discovering new peers failed - "EUNAVAILABLE Request failed GET http://192.168.4.25:9305/peer/list"
+[ERR] 2017-06-29 15:07:12 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2017-06-29 15:07:17 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2017-06-29 15:07:22 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2017-06-29 15:07:27 | Discovering new peers failed - "No acceptable peers found"
+[inf] 2017-06-29 15:07:30 | Forged new block id: 10731443004309581934 height: 364 round: 182 slot: 1282950 reward:100000000
+[ERR] 2017-06-29 15:07:32 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2017-06-29 15:07:37 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2017-06-29 15:07:42 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2017-06-29 15:07:47 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2017-06-29 15:07:52 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2017-06-29 15:07:57 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2017-06-29 15:08:02 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2017-06-29 15:08:07 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2017-06-29 15:08:13 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2017-06-29 15:08:18 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2017-06-29 15:08:23 | Discovering new peers failed - "No acceptable peers found"
+[inf] 2017-06-29 15:08:24 | Forged new block id: 15531112585974337236 height: 365 round: 183 slot: 1282952 reward:100000000
+[ERR] 2017-06-29 15:08:28 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2017-06-29 15:08:33 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2017-06-29 15:08:38 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2017-06-29 15:08:43 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2017-06-29 15:08:48 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2017-06-29 15:08:53 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2017-06-29 15:08:58 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2017-06-29 15:09:03 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2017-06-29 15:09:08 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2017-06-29 15:09:13 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2017-06-29 15:09:18 | Discovering new peers failed - "No acceptable peers found"
+[inf] 2017-06-29 15:09:18 | Forged new block id: 11322791535510385432 height: 366 round: 183 slot: 1282954 reward:100000000
+[ERR] 2017-06-29 15:09:23 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2017-06-29 15:09:28 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2017-06-29 15:09:33 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2017-06-29 15:09:38 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2017-06-29 15:09:43 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2017-06-29 15:09:48 | Discovering new peers failed - "No acceptable peers found"
+[inf] 2017-06-29 15:09:50 | Cleaning up...
+[inf] 2017-06-29 15:09:50 | Cleaned up successfully

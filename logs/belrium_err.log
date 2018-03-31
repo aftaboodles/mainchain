@@ -1,0 +1,6 @@
+NOTICE:  relation "dapp_15687045561829252108_blocks" already exists, skipping
+NOTICE:  relation "dapp_15687045561829252108_transactions" already exists, skipping
+NOTICE:  relation "dapp_15687045561829252108_asset_dapptransfer" already exists, skipping
+NOTICE:  relation "dapp_15687045561829252108_asset_myasset" already exists, skipping
+NOTICE:  relation "dapp_15687045561829252108_asset_delegates" already exists, skipping
+NOTICE:  relation "dapp_15687045561829252108_asset_token" already exists, skipping

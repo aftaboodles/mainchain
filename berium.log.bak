@@ -1,0 +1,142 @@
+[inf] 2018-02-12 10:15:52 | Shift started: 0.0.0.0:9305
+[inf] 2018-02-12 10:15:52 | Blocks 42
+[inf] 2018-02-12 10:15:52 | Genesis block matched with database
+[inf] 2018-02-12 10:15:52 | Blockchain ready
+[inf] 2018-02-12 10:15:52 | Loading 101 delegates from config
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 7923455179489302857BL
+[inf] 2018-02-12 10:15:52 | Imported peers from database - {"count":0}
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 5128375824355125085BL
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 259464175771832753BL
+[inf] 2018-02-12 10:15:52 | Starting sync
+[ERR] 2018-02-12 10:15:52 | Discovering new peers failed - "No acceptable peers found"
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 5439314052198185430BL
+[inf] 2018-02-12 10:15:52 | Finished sync
+[inf] 2018-02-12 10:15:52 | Starting sync
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 16843420642748432973BL
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 14247785207709180634BL
+[inf] 2018-02-12 10:15:52 | Finished sync
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 12663423531020885290BL
+[inf] 2018-02-12 10:15:52 | Starting sync
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 4548276214764251633BL
+[inf] 2018-02-12 10:15:52 | Finished sync
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 3437974321706635347BL
+[inf] 2018-02-12 10:15:52 | Starting sync
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 6992133064672555900BL
+[inf] 2018-02-12 10:15:52 | Finished sync
+[inf] 2018-02-12 10:15:52 | Starting sync
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 8128782748561773424BL
+[inf] 2018-02-12 10:15:52 | Finished sync
+[ERR] 2018-02-12 10:15:52 | Sync timer - "Failed to find enough good peers"
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 1293074585154852280BL
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 1913304763431201137BL
+[inf] 2018-02-12 10:15:52 | Starting sync
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 6009123209165778620BL
+[inf] 2018-02-12 10:15:52 | Finished sync
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 7019952277478331234BL
+[inf] 2018-02-12 10:15:52 | Starting sync
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 9698618078636685641BL
+[inf] 2018-02-12 10:15:52 | Finished sync
+[inf] 2018-02-12 10:15:52 | Starting sync
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 9543051937542394010BL
+[inf] 2018-02-12 10:15:52 | Finished sync
+[inf] 2018-02-12 10:15:52 | Starting sync
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 12629637155268520882BL
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 11511420898846886553BL
+[inf] 2018-02-12 10:15:52 | Finished sync
+[inf] 2018-02-12 10:15:52 | Starting sync
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 14708912356499671656BL
+[inf] 2018-02-12 10:15:52 | Finished sync
+[ERR] 2018-02-12 10:15:52 | Sync timer - "Failed to find enough good peers"
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 7361992594898462046BL
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 11725349887667243122BL
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 16755919928786126600BL
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 12294080140460070149BL
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 6317529213819238960BL
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 9818437625071914498BL
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 6235645609274447351BL
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 12500874546226732656BL
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 12733725146372758681BL
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 5752669941092744770BL
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 12528945203010972487BL
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 5840251483245334748BL
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 17516187442289733669BL
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 16533542257472026336BL
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 359909942503281357BL
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 3187447740388507692BL
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 3757281633267040596BL
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 15328822057052933640BL
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 10606271038874445632BL
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 4418796572232549803BL
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 5763521441807310315BL
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 15898259124788765762BL
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 4349456134855586751BL
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 7303749072854711424BL
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 14902595199212778191BL
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 16375822981359553989BL
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 14636246753414996712BL
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 1395709472943757266BL
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 16598718633680250009BL
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 12777716759941979509BL
+[inf] 2018-02-12 10:15:52 | Forging enabled on account: 57323461736643694BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 16662593244471946816BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 16293025498077245857BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 9458400215741454197BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 11124010775923394613BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 5464232204410583237BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 16244517466162667683BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 8964391940986523323BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 388588190977684488BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 15785328055585207220BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 15013059843976459797BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 1985747353249878994BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 4352865078142689417BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 9544250769233344448BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 9156665508521412350BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 17061181679922628048BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 17397184392260192404BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 9689696180735914724BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 9564721841848977606BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 8288118741110045647BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 9656772498701861271BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 4334126863184947391BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 10169370494149952980BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 14985183978043401251BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 13595684256460389358BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 4001385762203583317BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 12543461868183912847BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 5560593783842012320BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 2854700675207277182BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 13977220578985401615BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 16263519648677138585BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 15713340354022093729BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 1719285183629918158BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 18037746276812732205BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 12463498540420070346BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 9880486700589303803BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 11881341569105965734BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 4888100210141674956BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 14864104690996480022BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 14146782149105926969BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 14912434325145518916BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 12666376582120558998BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 3955332221047142833BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 4202310473964316896BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 4155243511203793992BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 8869317134629867451BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 6626900501388356933BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 3083483698379318829BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 1136292546396764388BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 4092896395826467009BL
+[inf] 2018-02-12 10:15:53 | Forging enabled on account: 16393212359163578383BL
+[inf] 2018-02-12 10:15:53 | Forged new block id: 8887084944099212122 height: 43 round: 1 slot: 5432135 reward:100000000
+[ERR] 2018-02-12 10:15:57 | Discovering new peers failed - "No acceptable peers found"
+[inf] 2018-02-12 10:16:00 | Forged new block id: 17942114245561207873 height: 44 round: 1 slot: 5432136 reward:100000000
+[ERR] 2018-02-12 10:16:02 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2018-02-12 10:16:07 | Discovering new peers failed - "No acceptable peers found"
+[inf] 2018-02-12 10:16:10 | Forged new block id: 7162294496952182982 height: 45 round: 1 slot: 5432137 reward:100000000
+[ERR] 2018-02-12 10:16:12 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2018-02-12 10:16:17 | Discovering new peers failed - "No acceptable peers found"
+[inf] 2018-02-12 10:16:20 | Forged new block id: 4677974206476309135 height: 46 round: 1 slot: 5432138 reward:100000000
+[ERR] 2018-02-12 10:16:22 | Discovering new peers failed - "No acceptable peers found"
+[inf] 2018-02-12 10:16:23 | Cleaning up...
+[inf] 2018-02-12 10:16:23 | Cleaned up successfully

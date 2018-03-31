@@ -1,0 +1,36 @@
+[inf] 2018-01-23 12:51:44 | Shift started: 0.0.0.0:9305
+[inf] 2018-01-23 12:51:44 | Blocks 865
+[inf] 2018-01-23 12:51:44 | Genesis block matched with database
+[inf] 2018-01-23 12:51:44 | Blockchain ready
+[inf] 2018-01-23 12:51:44 | Loading 1 delegates from config
+[inf] 2018-01-23 12:51:44 | Forging enabled on account: 6232988412937045830BL
+[inf] 2018-01-23 12:51:44 | Imported peers from database - {"count":0}
+[ERR] 2018-01-23 12:51:44 | Discovering new peers failed - "No acceptable peers found"
+[inf] 2018-01-23 12:51:45 | Forged new block id: 12102286422561569556 height: 866 round: 174 slot: 5260270 reward:100000000
+[inf] 2018-01-23 12:51:45 | Starting sync
+[inf] 2018-01-23 12:51:45 | Finished sync
+[inf] 2018-01-23 12:51:45 | Starting sync
+[inf] 2018-01-23 12:51:45 | Finished sync
+[inf] 2018-01-23 12:51:45 | Starting sync
+[inf] 2018-01-23 12:51:45 | Finished sync
+[inf] 2018-01-23 12:51:45 | Starting sync
+[inf] 2018-01-23 12:51:45 | Finished sync
+[inf] 2018-01-23 12:51:45 | Starting sync
+[inf] 2018-01-23 12:51:45 | Finished sync
+[ERR] 2018-01-23 12:51:45 | Sync timer - "Failed to find enough good peers"
+[inf] 2018-01-23 12:51:45 | Starting sync
+[inf] 2018-01-23 12:51:45 | Finished sync
+[inf] 2018-01-23 12:51:45 | Starting sync
+[inf] 2018-01-23 12:51:45 | Finished sync
+[inf] 2018-01-23 12:51:45 | Starting sync
+[inf] 2018-01-23 12:51:45 | Finished sync
+[inf] 2018-01-23 12:51:45 | Starting sync
+[inf] 2018-01-23 12:51:45 | Finished sync
+[inf] 2018-01-23 12:51:45 | Starting sync
+[inf] 2018-01-23 12:51:45 | Finished sync
+[ERR] 2018-01-23 12:51:45 | Sync timer - "Failed to find enough good peers"
+[ERR] 2018-01-23 12:51:49 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2018-01-23 12:51:54 | Discovering new peers failed - "No acceptable peers found"
+[ERR] 2018-01-23 12:51:59 | Discovering new peers failed - "No acceptable peers found"
+[inf] 2018-01-23 12:52:02 | Cleaning up...
+[inf] 2018-01-23 12:52:02 | Cleaned up successfully

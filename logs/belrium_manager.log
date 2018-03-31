@@ -1,0 +1,2974 @@
+
+## Installing the NodeSource Node.js v6.x LTS Boron repo...
+
+
+## Populating apt-get cache...
+
++ apt-get update
+Get:1 http://repo.mysql.com trusty InRelease [33.5 kB]
+Hit http://download.mono-project.com trusty InRelease
+Hit https://repo.skype.com stable InRelease
+Ign http://repo.mysql.com trusty InRelease
+Hit http://download.mono-project.com trusty/main amd64 Packages
+Hit https://repo.skype.com stable/main amd64 Packages
+Ign http://extras.ubuntu.com trusty InRelease
+Hit http://download.mono-project.com trusty/main i386 Packages
+Get:2 http://security.ubuntu.com trusty-security InRelease [65.9 kB]
+Ign http://ppa.launchpad.net trusty InRelease
+Ign http://repo.mongodb.org trusty/mongodb-org/3.4 InRelease
+Ign http://in.archive.ubuntu.com trusty InRelease
+Get:3 http://packages.microsoft.com stable InRelease [2,802 B]
+Get:4 http://extras.ubuntu.com trusty Release.gpg [72 B]
+Ign http://archive.canonical.com trusty InRelease
+Get:5 http://packages.microsoft.com stable/main amd64 Packages [45.1 kB]
+Get:6 http://in.archive.ubuntu.com trusty-updates InRelease [65.9 kB]
+Get:7 https://repo.skype.com stable/main Translation-en_US
+Hit http://extras.ubuntu.com trusty Release
+Hit https://deb.nodesource.com trusty InRelease
+Hit http://ppa.launchpad.net trusty InRelease
+Ign http://archive.canonical.com trusty InRelease
+Ign http://dl.google.com stable InRelease
+Hit http://extras.ubuntu.com trusty/main Sources
+Get:8 http://repo.mongodb.org trusty/mongodb-org/3.4 Release.gpg [801 B]
+Hit https://deb.nodesource.com trusty/main Sources
+Get:9 http://security.ubuntu.com trusty-security/main Sources [153 kB]
+Hit https://deb.nodesource.com trusty/main amd64 Packages
+Hit http://extras.ubuntu.com trusty/main amd64 Packages
+Hit http://archive.canonical.com trusty Release.gpg
+Hit http://ppa.launchpad.net trusty InRelease
+Hit http://in.archive.ubuntu.com trusty-backports InRelease
+Hit http://extras.ubuntu.com trusty/main i386 Packages
+Hit http://in.archive.ubuntu.com trusty Release.gpg
+Hit http://archive.canonical.com trusty Release.gpg
+Hit https://deb.nodesource.com trusty/main i386 Packages
+Hit http://ppa.launchpad.net trusty InRelease
+Get:10 http://dl.google.com stable Release.gpg [819 B]
+Get:11 http://in.archive.ubuntu.com trusty-updates/main Sources [414 kB]
+Get:12 http://security.ubuntu.com trusty-security/restricted Sources [4,931 B]
+Get:13 https://download.docker.com trusty/stable amd64 Packages
+Get:14 https://deb.nodesource.com trusty/main Translation-en_US
+Hit http://repo.mongodb.org trusty/mongodb-org/3.4 Release
+Ign http://repo.mongodb.org trusty/mongodb-org/3.4 Release
+Hit http://archive.canonical.com trusty Release
+Get:15 http://security.ubuntu.com trusty-security/universe Sources [69.3 kB]
+Ign http://repo.mongodb.org trusty/mongodb-org/3.4/multiverse amd64 Packages/DiffIndex
+Hit http://ppa.launchpad.net trusty InRelease
+Hit http://archive.canonical.com trusty Release
+Get:16 http://security.ubuntu.com trusty-security/multiverse Sources [3,185 B]
+Ign http://packages.microsoft.com stable/main Translation-en_US
+Get:17 https://download.docker.com trusty/edge amd64 Packages
+Get:18 http://dl.google.com stable Release [1,189 B]
+Ign http://packages.microsoft.com stable/main Translation-en
+Get:19 http://security.ubuntu.com trusty-security/main amd64 Packages [723 kB]
+Get:20 http://in.archive.ubuntu.com trusty-updates/restricted Sources [6,322 B]
+Ign http://ppa.launchpad.net trusty InRelease
+Ign http://packages.microsoft.com stable/main Translation-en_US.UTF-8
+Hit http://archive.canonical.com trusty/partner amd64 Packages
+Hit http://apt.postgresql.org trusty-pgdg InRelease
+Ign http://repo.mysql.com trusty/mysql-5.7-dmr Sources/DiffIndex
+Get:21 http://in.archive.ubuntu.com trusty-updates/universe Sources [198 kB]
+Hit http://archive.canonical.com trusty/partner i386 Packages
+Get:22 http://in.archive.ubuntu.com trusty-updates/multiverse Sources [7,368 B]
+Get:23 https://download.docker.com trusty/edge Translation-en_US
+Get:24 http://dl.google.com stable/main amd64 Packages [1,346 B]
+Hit http://ppa.launchpad.net trusty InRelease
+Get:25 http://in.archive.ubuntu.com trusty-updates/main amd64 Packages [1,064 kB]
+Get:26 http://security.ubuntu.com trusty-security/restricted amd64 Packages [14.1 kB]
+Hit http://archive.canonical.com trusty/partner Translation-en
+Get:27 http://security.ubuntu.com trusty-security/universe amd64 Packages [212 kB]
+Hit http://ppa.launchpad.net trusty InRelease
+Hit http://archive.canonical.com trusty/partner amd64 Packages
+Hit http://apt.postgresql.org trusty-pgdg/main amd64 Packages
+Get:28 http://security.ubuntu.com trusty-security/multiverse amd64 Packages [4,796 B]
+Hit http://archive.canonical.com trusty/partner i386 Packages
+Get:29 http://in.archive.ubuntu.com trusty-updates/restricted amd64 Packages [17.2 kB]
+Get:30 http://security.ubuntu.com trusty-security/main i386 Packages [670 kB]
+Hit http://ppa.launchpad.net trusty InRelease
+Ign http://repo.mysql.com trusty/mysql-apt-config amd64 Packages/DiffIndex
+Get:31 http://in.archive.ubuntu.com trusty-updates/universe amd64 Packages [448 kB]
+Hit http://archive.canonical.com trusty/partner Translation-en
+Ign http://extras.ubuntu.com trusty/main Translation-en_US
+Get:32 http://security.ubuntu.com trusty-security/restricted i386 Packages [13.9 kB]
+Ign http://extras.ubuntu.com trusty/main Translation-en
+Get:33 http://security.ubuntu.com trusty-security/universe i386 Packages [206 kB]
+Ign http://extras.ubuntu.com trusty/main Translation-en_US.UTF-8
+Ign https://deb.nodesource.com trusty/main Translation-en_US
+Ign https://deb.nodesource.com trusty/main Translation-en
+Get:34 http://security.ubuntu.com trusty-security/multiverse i386 Packages [4,951 B]
+Hit http://ppa.launchpad.net trusty InRelease
+Get:35 http://security.ubuntu.com trusty-security/main Translation-en [391 kB]
+Hit http://apt.postgresql.org trusty-pgdg/main i386 Packages
+Get:36 http://in.archive.ubuntu.com trusty-updates/multiverse amd64 Packages [14.6 kB]
+Ign https://deb.nodesource.com trusty/main Translation-en_US.UTF-8
+Get:37 http://security.ubuntu.com trusty-security/multiverse Translation-en [2,564 B]
+Get:38 http://in.archive.ubuntu.com trusty-updates/main i386 Packages [1,005 kB]
+Ign http://ppa.launchpad.net trusty InRelease
+Get:39 http://security.ubuntu.com trusty-security/restricted Translation-en [3,546 B]
+Hit http://ppa.launchpad.net trusty Release.gpg
+Get:40 http://security.ubuntu.com trusty-security/universe Translation-en [118 kB]
+Ign http://repo.mysql.com trusty/mysql-5.7-dmr amd64 Packages/DiffIndex
+Get:41 http://in.archive.ubuntu.com trusty-updates/restricted i386 Packages [17.1 kB]
+Get:42 http://in.archive.ubuntu.com trusty-updates/universe i386 Packages [443 kB]
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Ign https://repo.skype.com stable/main Translation-en_US
+Ign https://repo.skype.com stable/main Translation-en
+Get:43 http://in.archive.ubuntu.com trusty-updates/multiverse i386 Packages [15.0 kB]
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Get:44 http://in.archive.ubuntu.com trusty-updates/main Translation-en [525 kB]
+Ign https://repo.skype.com stable/main Translation-en_US.UTF-8
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Ign http://repo.mysql.com trusty/mysql-apt-config i386 Packages/DiffIndex
+Get:45 http://in.archive.ubuntu.com trusty-updates/multiverse Translation-en [7,616 B]
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Ign http://download.mono-project.com trusty/main Translation-en_US
+Get:46 http://in.archive.ubuntu.com trusty-updates/restricted Translation-en [4,024 B]
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Get:47 http://in.archive.ubuntu.com trusty-updates/universe Translation-en [242 kB]
+Ign http://download.mono-project.com trusty/main Translation-en
+Ign http://dl.google.com stable/main Translation-en_US
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Hit http://in.archive.ubuntu.com trusty-backports/main Sources
+Hit http://repo.mongodb.org trusty/mongodb-org/3.4/multiverse amd64 Packages
+Hit http://in.archive.ubuntu.com trusty-backports/restricted Sources
+Ign http://dl.google.com stable/main Translation-en
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit http://in.archive.ubuntu.com trusty-backports/universe Sources
+Ign http://download.mono-project.com trusty/main Translation-en_US.UTF-8
+Hit http://in.archive.ubuntu.com trusty-backports/multiverse Sources
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Hit http://in.archive.ubuntu.com trusty-backports/main amd64 Packages
+Hit http://in.archive.ubuntu.com trusty-backports/restricted amd64 Packages
+Ign http://repo.mongodb.org trusty/mongodb-org/3.4/multiverse Translation-en_US
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Hit http://in.archive.ubuntu.com trusty-backports/universe amd64 Packages
+Ign http://repo.mongodb.org trusty/mongodb-org/3.4/multiverse Translation-en
+Hit http://in.archive.ubuntu.com trusty-backports/multiverse amd64 Packages
+Hit http://in.archive.ubuntu.com trusty-backports/main i386 Packages
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Ign http://repo.mongodb.org trusty/mongodb-org/3.4/multiverse Translation-en_US.UTF-8
+Hit http://in.archive.ubuntu.com trusty-backports/restricted i386 Packages
+Ign http://dl.google.com stable/main Translation-en_US.UTF-8
+Ign http://repo.mysql.com trusty/mysql-5.7-dmr i386 Packages/DiffIndex
+Hit http://in.archive.ubuntu.com trusty-backports/universe i386 Packages
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Hit http://in.archive.ubuntu.com trusty-backports/multiverse i386 Packages
+Hit http://in.archive.ubuntu.com trusty-backports/main Translation-en
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Ign http://apt.postgresql.org trusty-pgdg/main Translation-en_US
+Hit http://in.archive.ubuntu.com trusty-backports/multiverse Translation-en
+Hit http://in.archive.ubuntu.com trusty-backports/restricted Translation-en
+Hit http://ppa.launchpad.net trusty Release.gpg
+Ign http://apt.postgresql.org trusty-pgdg/main Translation-en
+Hit http://in.archive.ubuntu.com trusty-backports/universe Translation-en
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Ign http://apt.postgresql.org trusty-pgdg/main Translation-en_US.UTF-8
+Hit http://in.archive.ubuntu.com trusty Release
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Hit http://in.archive.ubuntu.com trusty/main Sources
+Hit http://in.archive.ubuntu.com trusty/restricted Sources
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Hit http://in.archive.ubuntu.com trusty/universe Sources
+Hit http://in.archive.ubuntu.com trusty/multiverse Sources
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit http://in.archive.ubuntu.com trusty/main amd64 Packages
+Hit http://in.archive.ubuntu.com trusty/restricted amd64 Packages
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Hit http://in.archive.ubuntu.com trusty/universe amd64 Packages
+Hit http://in.archive.ubuntu.com trusty/multiverse amd64 Packages
+Hit http://in.archive.ubuntu.com trusty/main i386 Packages
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Hit http://in.archive.ubuntu.com trusty/restricted i386 Packages
+Hit http://in.archive.ubuntu.com trusty/universe i386 Packages
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit http://in.archive.ubuntu.com trusty/multiverse i386 Packages
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Hit http://in.archive.ubuntu.com trusty/main Translation-en
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit http://in.archive.ubuntu.com trusty/multiverse Translation-en
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Hit http://in.archive.ubuntu.com trusty/restricted Translation-en
+Hit http://ppa.launchpad.net trusty Release.gpg
+Hit http://in.archive.ubuntu.com trusty/universe Translation-en
+Hit http://ppa.launchpad.net trusty Release
+Hit http://ppa.launchpad.net trusty Release
+Hit http://ppa.launchpad.net trusty Release
+Hit http://ppa.launchpad.net trusty/main Sources
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Ign https://download.docker.com trusty/edge Translation-en_US
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Ign https://download.docker.com trusty/edge Translation-en
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Ign https://download.docker.com trusty/edge Translation-en_US.UTF-8
+Ign https://download.docker.com trusty/stable Translation-en_US
+Ign https://download.docker.com trusty/stable Translation-en
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Ign http://in.archive.ubuntu.com trusty/main Translation-en_US
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Ign https://download.docker.com trusty/stable Translation-en_US.UTF-8
+Ign http://in.archive.ubuntu.com trusty/main Translation-en_US.UTF-8
+Ign http://in.archive.ubuntu.com trusty/multiverse Translation-en_US
+Ign http://in.archive.ubuntu.com trusty/multiverse Translation-en_US.UTF-8
+Ign http://in.archive.ubuntu.com trusty/restricted Translation-en_US
+Ign http://in.archive.ubuntu.com trusty/restricted Translation-en_US.UTF-8
+Ign http://in.archive.ubuntu.com trusty/universe Translation-en_US
+Ign http://in.archive.ubuntu.com trusty/universe Translation-en_US.UTF-8
+Ign http://ppa.launchpad.net trusty/main Translation-en_US
+Ign http://ppa.launchpad.net trusty/main Translation-en
+Ign http://ppa.launchpad.net trusty/main Translation-en_US.UTF-8
+Ign http://ppa.launchpad.net trusty/main Translation-en_US
+Ign http://ppa.launchpad.net trusty/main Translation-en
+Ign http://ppa.launchpad.net trusty/main Translation-en_US.UTF-8
+Hit http://repo.mysql.com trusty/mysql-5.7-dmr Sources
+Hit http://repo.mysql.com trusty/mysql-apt-config amd64 Packages
+Hit http://repo.mysql.com trusty/mysql-5.7-dmr amd64 Packages
+Hit http://repo.mysql.com trusty/mysql-apt-config i386 Packages
+Hit http://repo.mysql.com trusty/mysql-5.7-dmr i386 Packages
+Ign http://repo.mysql.com trusty/mysql-5.7-dmr Translation-en_US
+Ign http://repo.mysql.com trusty/mysql-5.7-dmr Translation-en
+Ign http://repo.mysql.com trusty/mysql-5.7-dmr Translation-en_US.UTF-8
+Ign http://repo.mysql.com trusty/mysql-apt-config Translation-en_US
+Ign http://repo.mysql.com trusty/mysql-apt-config Translation-en
+Ign http://repo.mysql.com trusty/mysql-apt-config Translation-en_US.UTF-8
+Fetched 7,276 kB in 1min 17s (94.4 kB/s)
+Reading package lists...
+W: GPG error: http://repo.mysql.com trusty InRelease: The following signatures were invalid: KEYEXPIRED 1487236823 KEYEXPIRED 1487236823 KEYEXPIRED 1487236823
+W: GPG error: http://repo.mongodb.org trusty/mongodb-org/3.4 Release: The following signatures were invalid: KEYEXPIRED 1515625755
+W: Duplicate sources.list entry http://ppa.launchpad.net/chris-lea/libsodium/ubuntu/ trusty/main amd64 Packages (/var/lib/apt/lists/ppa.launchpad.net_chris-lea_libsodium_ubuntu_dists_trusty_main_binary-amd64_Packages)
+W: Duplicate sources.list entry http://ppa.launchpad.net/chris-lea/libsodium/ubuntu/ trusty/main amd64 Packages (/var/lib/apt/lists/ppa.launchpad.net_chris-lea_libsodium_ubuntu_dists_trusty_main_binary-amd64_Packages)
+W: Duplicate sources.list entry http://ppa.launchpad.net/chris-lea/libsodium/ubuntu/ trusty/main i386 Packages (/var/lib/apt/lists/ppa.launchpad.net_chris-lea_libsodium_ubuntu_dists_trusty_main_binary-i386_Packages)
+W: Duplicate sources.list entry http://ppa.launchpad.net/chris-lea/libsodium/ubuntu/ trusty/main i386 Packages (/var/lib/apt/lists/ppa.launchpad.net_chris-lea_libsodium_ubuntu_dists_trusty_main_binary-i386_Packages)
+
+## Confirming "trusty" is supported...
+
++ curl -sLf -o /dev/null 'https://deb.nodesource.com/node_6.x/dists/trusty/Release'
+
+## Adding the NodeSource signing key to your keyring...
+
++ curl -s https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add -
+OK
+
+## Creating apt sources list file for the NodeSource Node.js v6.x LTS Boron repo...
+
++ echo 'deb https://deb.nodesource.com/node_6.x trusty main' > /etc/apt/sources.list.d/nodesource.list
++ echo 'deb-src https://deb.nodesource.com/node_6.x trusty main' >> /etc/apt/sources.list.d/nodesource.list
+
+## Running `apt-get update` for you...
+
++ apt-get update
+Get:1 http://repo.mysql.com trusty InRelease [33.5 kB]
+Ign http://repo.mysql.com trusty InRelease
+Hit http://download.mono-project.com trusty InRelease
+Hit http://download.mono-project.com trusty/main amd64 Packages
+Hit http://download.mono-project.com trusty/main i386 Packages
+Hit https://repo.skype.com stable InRelease
+Hit https://repo.skype.com stable/main amd64 Packages
+Hit http://packages.microsoft.com stable InRelease
+Ign http://extras.ubuntu.com trusty InRelease
+Hit http://security.ubuntu.com trusty-security InRelease
+Ign http://ppa.launchpad.net trusty InRelease
+Ign http://in.archive.ubuntu.com trusty InRelease
+Ign http://dl.google.com stable InRelease
+Hit http://packages.microsoft.com stable/main amd64 Packages
+Hit http://extras.ubuntu.com trusty Release.gpg
+Hit http://in.archive.ubuntu.com trusty-updates InRelease
+Ign http://archive.canonical.com trusty InRelease
+Hit http://security.ubuntu.com trusty-security/main Sources
+Get:2 https://repo.skype.com stable/main Translation-en_US
+Hit http://extras.ubuntu.com trusty Release
+Hit http://ppa.launchpad.net trusty InRelease
+Hit http://dl.google.com stable Release.gpg
+Hit http://in.archive.ubuntu.com trusty-backports InRelease
+Hit http://security.ubuntu.com trusty-security/restricted Sources
+Hit http://apt.postgresql.org trusty-pgdg InRelease
+Ign http://archive.canonical.com trusty InRelease
+Hit https://deb.nodesource.com trusty InRelease
+Hit http://extras.ubuntu.com trusty/main Sources
+Hit http://in.archive.ubuntu.com trusty Release.gpg
+Hit http://security.ubuntu.com trusty-security/universe Sources
+Hit http://archive.canonical.com trusty Release.gpg
+Hit https://deb.nodesource.com trusty/main Sources
+Hit http://ppa.launchpad.net trusty InRelease
+Hit http://dl.google.com stable Release
+Hit http://extras.ubuntu.com trusty/main amd64 Packages
+Hit http://in.archive.ubuntu.com trusty-updates/main Sources
+Hit https://deb.nodesource.com trusty/main amd64 Packages
+Ign http://repo.mongodb.org trusty/mongodb-org/3.4 InRelease
+Hit https://download.docker.com trusty InRelease
+Hit http://security.ubuntu.com trusty-security/multiverse Sources
+Hit http://archive.canonical.com trusty Release.gpg
+Hit https://deb.nodesource.com trusty/main i386 Packages
+Hit https://download.docker.com trusty/stable amd64 Packages
+Hit http://in.archive.ubuntu.com trusty-updates/restricted Sources
+Hit http://extras.ubuntu.com trusty/main i386 Packages
+Hit http://security.ubuntu.com trusty-security/main amd64 Packages
+Hit http://archive.canonical.com trusty Release
+Get:3 https://deb.nodesource.com trusty/main Translation-en_US
+Hit https://download.docker.com trusty/edge amd64 Packages
+Hit http://ppa.launchpad.net trusty InRelease
+Hit http://dl.google.com stable/main amd64 Packages
+Hit http://in.archive.ubuntu.com trusty-updates/universe Sources
+Hit http://security.ubuntu.com trusty-security/restricted amd64 Packages
+Ign http://repo.mysql.com trusty/mysql-5.7-dmr Sources/DiffIndex
+Hit http://archive.canonical.com trusty Release
+Hit http://apt.postgresql.org trusty-pgdg/main amd64 Packages
+Hit http://in.archive.ubuntu.com trusty-updates/multiverse Sources
+Hit http://security.ubuntu.com trusty-security/universe amd64 Packages
+Hit http://archive.canonical.com trusty/partner amd64 Packages
+Ign http://packages.microsoft.com stable/main Translation-en_US
+Hit http://in.archive.ubuntu.com trusty-updates/main amd64 Packages
+Hit http://ppa.launchpad.net trusty InRelease
+Ign http://packages.microsoft.com stable/main Translation-en
+Hit http://security.ubuntu.com trusty-security/multiverse amd64 Packages
+Hit http://archive.canonical.com trusty/partner i386 Packages
+Get:4 https://download.docker.com trusty/edge Translation-en_US
+Ign http://packages.microsoft.com stable/main Translation-en_US.UTF-8
+Get:5 http://repo.mongodb.org trusty/mongodb-org/3.4 Release.gpg [801 B]
+Hit http://in.archive.ubuntu.com trusty-updates/restricted amd64 Packages
+Hit http://security.ubuntu.com trusty-security/main i386 Packages
+Hit http://archive.canonical.com trusty/partner Translation-en
+Hit http://in.archive.ubuntu.com trusty-updates/universe amd64 Packages
+Ign http://ppa.launchpad.net trusty InRelease
+Hit http://security.ubuntu.com trusty-security/restricted i386 Packages
+Hit http://archive.canonical.com trusty/partner amd64 Packages
+Hit http://apt.postgresql.org trusty-pgdg/main i386 Packages
+Hit http://in.archive.ubuntu.com trusty-updates/multiverse amd64 Packages
+Hit http://security.ubuntu.com trusty-security/universe i386 Packages
+Hit http://repo.mongodb.org trusty/mongodb-org/3.4 Release
+Hit http://archive.canonical.com trusty/partner i386 Packages
+Ign http://repo.mongodb.org trusty/mongodb-org/3.4 Release
+Hit http://in.archive.ubuntu.com trusty-updates/main i386 Packages
+Hit http://ppa.launchpad.net trusty InRelease
+Hit http://security.ubuntu.com trusty-security/multiverse i386 Packages
+Hit http://archive.canonical.com trusty/partner Translation-en
+Hit http://in.archive.ubuntu.com trusty-updates/restricted i386 Packages
+Hit http://security.ubuntu.com trusty-security/main Translation-en
+Ign http://repo.mongodb.org trusty/mongodb-org/3.4/multiverse amd64 Packages/DiffIndex
+Hit http://in.archive.ubuntu.com trusty-updates/universe i386 Packages
+Hit http://ppa.launchpad.net trusty InRelease
+Ign https://deb.nodesource.com trusty/main Translation-en_US
+Hit http://security.ubuntu.com trusty-security/multiverse Translation-en
+Ign http://repo.mysql.com trusty/mysql-apt-config amd64 Packages/DiffIndex
+Ign https://deb.nodesource.com trusty/main Translation-en
+Hit http://in.archive.ubuntu.com trusty-updates/multiverse i386 Packages
+Hit http://security.ubuntu.com trusty-security/restricted Translation-en
+Ign https://deb.nodesource.com trusty/main Translation-en_US.UTF-8
+Hit http://in.archive.ubuntu.com trusty-updates/main Translation-en
+Hit http://ppa.launchpad.net trusty InRelease
+Hit http://security.ubuntu.com trusty-security/universe Translation-en
+Hit http://in.archive.ubuntu.com trusty-updates/multiverse Translation-en
+Ign http://extras.ubuntu.com trusty/main Translation-en_US
+Hit http://ppa.launchpad.net trusty InRelease
+Ign http://extras.ubuntu.com trusty/main Translation-en
+Hit http://in.archive.ubuntu.com trusty-updates/restricted Translation-en
+Ign http://extras.ubuntu.com trusty/main Translation-en_US.UTF-8
+Hit http://in.archive.ubuntu.com trusty-updates/universe Translation-en
+Ign http://ppa.launchpad.net trusty InRelease
+Hit http://in.archive.ubuntu.com trusty-backports/main Sources
+Ign http://repo.mysql.com trusty/mysql-5.7-dmr amd64 Packages/DiffIndex
+Hit http://in.archive.ubuntu.com trusty-backports/restricted Sources
+Hit http://ppa.launchpad.net trusty Release.gpg
+Hit http://in.archive.ubuntu.com trusty-backports/universe Sources
+Ign https://repo.skype.com stable/main Translation-en_US
+Hit http://in.archive.ubuntu.com trusty-backports/multiverse Sources
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit http://in.archive.ubuntu.com trusty-backports/main amd64 Packages
+Hit http://in.archive.ubuntu.com trusty-backports/restricted amd64 Packages
+Ign https://repo.skype.com stable/main Translation-en
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Hit http://in.archive.ubuntu.com trusty-backports/universe amd64 Packages
+Hit http://repo.mongodb.org trusty/mongodb-org/3.4/multiverse amd64 Packages
+Hit http://in.archive.ubuntu.com trusty-backports/multiverse amd64 Packages
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Ign https://repo.skype.com stable/main Translation-en_US.UTF-8
+Ign http://repo.mongodb.org trusty/mongodb-org/3.4/multiverse Translation-en_US
+Ign http://repo.mysql.com trusty/mysql-apt-config i386 Packages/DiffIndex
+Hit http://in.archive.ubuntu.com trusty-backports/main i386 Packages
+Ign http://repo.mongodb.org trusty/mongodb-org/3.4/multiverse Translation-en
+Hit http://in.archive.ubuntu.com trusty-backports/restricted i386 Packages
+Ign http://repo.mongodb.org trusty/mongodb-org/3.4/multiverse Translation-en_US.UTF-8
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Ign http://dl.google.com stable/main Translation-en_US
+Hit http://in.archive.ubuntu.com trusty-backports/universe i386 Packages
+Hit http://in.archive.ubuntu.com trusty-backports/multiverse i386 Packages
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Ign http://dl.google.com stable/main Translation-en
+Hit http://in.archive.ubuntu.com trusty-backports/main Translation-en
+Hit http://in.archive.ubuntu.com trusty-backports/multiverse Translation-en
+Ign http://dl.google.com stable/main Translation-en_US.UTF-8
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Hit http://in.archive.ubuntu.com trusty-backports/restricted Translation-en
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Ign http://repo.mysql.com trusty/mysql-5.7-dmr i386 Packages/DiffIndex
+Hit http://in.archive.ubuntu.com trusty-backports/universe Translation-en
+Hit http://in.archive.ubuntu.com trusty Release
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Ign http://download.mono-project.com trusty/main Translation-en_US
+Hit http://in.archive.ubuntu.com trusty/main Sources
+Ign http://apt.postgresql.org trusty-pgdg/main Translation-en_US
+Hit http://in.archive.ubuntu.com trusty/restricted Sources
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Hit http://in.archive.ubuntu.com trusty/universe Sources
+Ign http://download.mono-project.com trusty/main Translation-en
+Ign http://apt.postgresql.org trusty-pgdg/main Translation-en
+Hit http://in.archive.ubuntu.com trusty/multiverse Sources
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit http://in.archive.ubuntu.com trusty/main amd64 Packages
+Ign http://apt.postgresql.org trusty-pgdg/main Translation-en_US.UTF-8
+Hit http://in.archive.ubuntu.com trusty/restricted amd64 Packages
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Ign http://download.mono-project.com trusty/main Translation-en_US.UTF-8
+Hit http://in.archive.ubuntu.com trusty/universe amd64 Packages
+Hit http://in.archive.ubuntu.com trusty/multiverse amd64 Packages
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Hit http://in.archive.ubuntu.com trusty/main i386 Packages
+Hit http://in.archive.ubuntu.com trusty/restricted i386 Packages
+Hit http://ppa.launchpad.net trusty Release.gpg
+Hit http://in.archive.ubuntu.com trusty/universe i386 Packages
+Hit http://in.archive.ubuntu.com trusty/multiverse i386 Packages
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit http://in.archive.ubuntu.com trusty/main Translation-en
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Hit http://in.archive.ubuntu.com trusty/multiverse Translation-en
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Hit http://in.archive.ubuntu.com trusty/restricted Translation-en
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Hit http://in.archive.ubuntu.com trusty/universe Translation-en
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Hit http://ppa.launchpad.net trusty Release.gpg
+Hit http://ppa.launchpad.net trusty Release
+Hit http://ppa.launchpad.net trusty Release
+Hit http://ppa.launchpad.net trusty Release
+Hit http://ppa.launchpad.net trusty/main Sources
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Ign http://in.archive.ubuntu.com trusty/main Translation-en_US
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Ign http://in.archive.ubuntu.com trusty/main Translation-en_US.UTF-8
+Ign http://in.archive.ubuntu.com trusty/multiverse Translation-en_US
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Ign http://in.archive.ubuntu.com trusty/multiverse Translation-en_US.UTF-8
+Ign http://in.archive.ubuntu.com trusty/restricted Translation-en_US
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Ign http://in.archive.ubuntu.com trusty/restricted Translation-en_US.UTF-8
+Ign http://in.archive.ubuntu.com trusty/universe Translation-en_US
+Ign http://in.archive.ubuntu.com trusty/universe Translation-en_US.UTF-8
+Ign https://download.docker.com trusty/edge Translation-en_US
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Ign https://download.docker.com trusty/edge Translation-en
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Ign https://download.docker.com trusty/edge Translation-en_US.UTF-8
+Ign https://download.docker.com trusty/stable Translation-en_US
+Ign https://download.docker.com trusty/stable Translation-en
+Ign https://download.docker.com trusty/stable Translation-en_US.UTF-8
+Ign http://ppa.launchpad.net trusty/main Translation-en_US
+Ign http://ppa.launchpad.net trusty/main Translation-en
+Ign http://ppa.launchpad.net trusty/main Translation-en_US.UTF-8
+Ign http://ppa.launchpad.net trusty/main Translation-en_US
+Ign http://ppa.launchpad.net trusty/main Translation-en
+Ign http://ppa.launchpad.net trusty/main Translation-en_US.UTF-8
+Hit http://repo.mysql.com trusty/mysql-5.7-dmr Sources
+Hit http://repo.mysql.com trusty/mysql-apt-config amd64 Packages
+Hit http://repo.mysql.com trusty/mysql-5.7-dmr amd64 Packages
+Hit http://repo.mysql.com trusty/mysql-apt-config i386 Packages
+Hit http://repo.mysql.com trusty/mysql-5.7-dmr i386 Packages
+Ign http://repo.mysql.com trusty/mysql-5.7-dmr Translation-en_US
+Ign http://repo.mysql.com trusty/mysql-5.7-dmr Translation-en
+Ign http://repo.mysql.com trusty/mysql-5.7-dmr Translation-en_US.UTF-8
+Ign http://repo.mysql.com trusty/mysql-apt-config Translation-en_US
+Ign http://repo.mysql.com trusty/mysql-apt-config Translation-en
+Ign http://repo.mysql.com trusty/mysql-apt-config Translation-en_US.UTF-8
+Fetched 34.3 kB in 1min 14s (460 B/s)
+Reading package lists...
+W: GPG error: http://repo.mysql.com trusty InRelease: The following signatures were invalid: KEYEXPIRED 1487236823 KEYEXPIRED 1487236823 KEYEXPIRED 1487236823
+W: GPG error: http://repo.mongodb.org trusty/mongodb-org/3.4 Release: The following signatures were invalid: KEYEXPIRED 1515625755
+W: Duplicate sources.list entry http://ppa.launchpad.net/chris-lea/libsodium/ubuntu/ trusty/main amd64 Packages (/var/lib/apt/lists/ppa.launchpad.net_chris-lea_libsodium_ubuntu_dists_trusty_main_binary-amd64_Packages)
+W: Duplicate sources.list entry http://ppa.launchpad.net/chris-lea/libsodium/ubuntu/ trusty/main amd64 Packages (/var/lib/apt/lists/ppa.launchpad.net_chris-lea_libsodium_ubuntu_dists_trusty_main_binary-amd64_Packages)
+W: Duplicate sources.list entry http://ppa.launchpad.net/chris-lea/libsodium/ubuntu/ trusty/main i386 Packages (/var/lib/apt/lists/ppa.launchpad.net_chris-lea_libsodium_ubuntu_dists_trusty_main_binary-i386_Packages)
+W: Duplicate sources.list entry http://ppa.launchpad.net/chris-lea/libsodium/ubuntu/ trusty/main i386 Packages (/var/lib/apt/lists/ppa.launchpad.net_chris-lea_libsodium_ubuntu_dists_trusty_main_binary-i386_Packages)
+
+## Run `apt-get install nodejs` (as root) to install Node.js v6.x LTS Boron and npm
+
+Selecting previously unselected package nodejs.
+(Reading database ... 206957 files and directories currently installed.)
+Preparing to unpack .../nodejs_6.13.1-1nodesource1_amd64.deb ...
+Detected old npm client, removing...
+Unpacking nodejs (6.13.1-1nodesource1) ...
+Processing triggers for man-db (2.6.7.1-1) ...
+Setting up nodejs (6.13.1-1nodesource1) ...
+/usr/bin/grunt -> /usr/lib/node_modules/grunt-cli/bin/grunt
+/usr/lib
+└─┬ grunt-cli@1.2.0 
+  └─┬ findup-sync@0.3.0
+    └─┬ glob@5.0.15
+      └─┬ minimatch@3.0.4
+        └── brace-expansion@1.1.11 
+
+npm WARN deprecated bower@1.8.2: ...psst! Your project can stop working at any moment because its dependencies can change. Prevent this by migrating to Yarn: https://bower.io/blog/2017/how-to-migrate-away-from-bower/
+/usr/bin/bower -> /usr/lib/node_modules/bower/bin/bower
+/usr/lib
+└── bower@1.8.2 
+
+/usr/bin/forever -> /usr/lib/node_modules/forever/bin/forever
+/usr/lib
+└─┬ forever@0.15.3 
+  ├── clone@1.0.4 
+  ├─┬ forever-monitor@1.7.1
+  │ ├─┬ chokidar@1.7.0
+  │ │ └─┬ readdirp@2.1.0
+  │ │   └─┬ readable-stream@2.3.5 
+  │ │     └── process-nextick-args@2.0.0 
+  │ └─┬ minimatch@3.0.4
+  │   └── brace-expansion@1.1.11 
+  └─┬ prettyjson@1.2.1
+    └── colors@1.2.1 
+
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.0.0 (node_modules/forever/node_modules/chokidar/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+
+## Installing the NodeSource Node.js v6.x LTS Boron repo...
+
+
+## Populating apt-get cache...
+
++ apt-get update
+Hit https://repo.skype.com stable InRelease
+Ign http://repo.mongodb.org trusty/mongodb-org/3.4 InRelease
+Get:1 http://repo.mysql.com trusty InRelease [33.5 kB]
+Ign http://in.archive.ubuntu.com trusty InRelease
+Get:2 http://security.ubuntu.com trusty-security InRelease [65.9 kB]
+Hit https://repo.skype.com stable/main amd64 Packages
+Ign http://repo.mysql.com trusty InRelease
+Ign http://extras.ubuntu.com trusty InRelease
+Ign http://dl.google.com stable InRelease
+Get:3 http://in.archive.ubuntu.com trusty-updates InRelease [65.9 kB]
+Hit http://packages.microsoft.com stable InRelease
+Get:4 http://extras.ubuntu.com trusty Release.gpg [72 B]
+Ign http://ppa.launchpad.net trusty InRelease
+Hit http://download.mono-project.com trusty InRelease
+Get:5 http://repo.mongodb.org trusty/mongodb-org/3.4 Release.gpg [801 B]
+Hit http://download.mono-project.com trusty/main amd64 Packages
+Ign http://archive.canonical.com trusty InRelease
+Hit http://download.mono-project.com trusty/main i386 Packages
+Hit https://deb.nodesource.com trusty InRelease
+Hit http://extras.ubuntu.com trusty Release
+Get:6 https://repo.skype.com stable/main Translation-en_US
+Hit http://dl.google.com stable Release.gpg
+Hit https://deb.nodesource.com trusty/main Sources
+Hit http://ppa.launchpad.net trusty InRelease
+Hit http://extras.ubuntu.com trusty/main Sources
+Hit https://deb.nodesource.com trusty/main amd64 Packages
+Ign http://archive.canonical.com trusty InRelease
+Get:7 http://security.ubuntu.com trusty-security/main Sources [153 kB]
+Hit https://download.docker.com trusty InRelease
+Hit http://in.archive.ubuntu.com trusty-backports InRelease
+Hit https://deb.nodesource.com trusty/main i386 Packages
+Hit http://extras.ubuntu.com trusty/main amd64 Packages
+Hit http://dl.google.com stable Release
+Hit https://download.docker.com trusty/stable amd64 Packages
+Hit http://ppa.launchpad.net trusty InRelease
+Hit http://in.archive.ubuntu.com trusty Release.gpg
+Hit http://archive.canonical.com trusty Release.gpg
+Hit http://extras.ubuntu.com trusty/main i386 Packages
+Hit https://download.docker.com trusty/edge amd64 Packages
+Hit http://repo.mongodb.org trusty/mongodb-org/3.4 Release
+Ign http://repo.mongodb.org trusty/mongodb-org/3.4 Release
+Get:8 http://in.archive.ubuntu.com trusty-updates/main Sources [414 kB]
+Get:9 http://security.ubuntu.com trusty-security/restricted Sources [4,931 B]
+Hit http://dl.google.com stable/main amd64 Packages
+Ign http://repo.mongodb.org trusty/mongodb-org/3.4/multiverse amd64 Packages/DiffIndex
+Hit http://archive.canonical.com trusty Release.gpg
+Hit http://ppa.launchpad.net trusty InRelease
+Get:10 https://deb.nodesource.com trusty/main Translation-en_US
+Get:11 http://security.ubuntu.com trusty-security/universe Sources [69.3 kB]
+Hit http://archive.canonical.com trusty Release
+Get:12 http://security.ubuntu.com trusty-security/multiverse Sources [3,185 B]
+Hit http://ppa.launchpad.net trusty InRelease
+Get:13 https://download.docker.com trusty/edge Translation-en_US
+Get:14 http://in.archive.ubuntu.com trusty-updates/restricted Sources [6,322 B]
+Get:15 http://security.ubuntu.com trusty-security/main amd64 Packages [723 kB]
+Hit http://archive.canonical.com trusty Release
+Hit http://apt.postgresql.org trusty-pgdg InRelease
+Get:16 http://in.archive.ubuntu.com trusty-updates/universe Sources [198 kB]
+Ign http://ppa.launchpad.net trusty InRelease
+Hit http://archive.canonical.com trusty/partner amd64 Packages
+Get:17 http://in.archive.ubuntu.com trusty-updates/multiverse Sources [7,368 B]
+Get:18 http://in.archive.ubuntu.com trusty-updates/main amd64 Packages [1,064 kB]
+Hit http://ppa.launchpad.net trusty InRelease
+Hit http://archive.canonical.com trusty/partner i386 Packages
+Get:19 http://security.ubuntu.com trusty-security/restricted amd64 Packages [14.1 kB]
+Ign http://repo.mysql.com trusty/mysql-5.7-dmr Sources/DiffIndex
+Get:20 http://security.ubuntu.com trusty-security/universe amd64 Packages [212 kB]
+Hit http://archive.canonical.com trusty/partner Translation-en
+Hit http://apt.postgresql.org trusty-pgdg/main amd64 Packages
+Hit http://ppa.launchpad.net trusty InRelease
+Get:21 http://security.ubuntu.com trusty-security/multiverse amd64 Packages [4,796 B]
+Get:22 http://in.archive.ubuntu.com trusty-updates/restricted amd64 Packages [17.2 kB]
+Get:23 http://security.ubuntu.com trusty-security/main i386 Packages [670 kB]
+Hit http://archive.canonical.com trusty/partner amd64 Packages
+Get:24 http://in.archive.ubuntu.com trusty-updates/universe amd64 Packages [448 kB]
+Hit http://archive.canonical.com trusty/partner i386 Packages
+Ign http://extras.ubuntu.com trusty/main Translation-en_US
+Ign http://repo.mysql.com trusty/mysql-apt-config amd64 Packages/DiffIndex
+Ign http://extras.ubuntu.com trusty/main Translation-en
+Hit http://archive.canonical.com trusty/partner Translation-en
+Ign http://extras.ubuntu.com trusty/main Translation-en_US.UTF-8
+Get:25 http://in.archive.ubuntu.com trusty-updates/multiverse amd64 Packages [14.6 kB]
+Hit http://apt.postgresql.org trusty-pgdg/main i386 Packages
+Get:26 http://in.archive.ubuntu.com trusty-updates/main i386 Packages [1,005 kB]
+Hit http://ppa.launchpad.net trusty InRelease
+Ign http://repo.mysql.com trusty/mysql-5.7-dmr amd64 Packages/DiffIndex
+Get:27 http://in.archive.ubuntu.com trusty-updates/restricted i386 Packages [17.1 kB]
+Hit http://ppa.launchpad.net trusty InRelease
+Get:28 http://in.archive.ubuntu.com trusty-updates/universe i386 Packages [443 kB]
+Get:29 http://security.ubuntu.com trusty-security/restricted i386 Packages [13.9 kB]
+Ign https://deb.nodesource.com trusty/main Translation-en_US
+Ign https://repo.skype.com stable/main Translation-en_US
+Ign https://deb.nodesource.com trusty/main Translation-en
+Hit http://repo.mongodb.org trusty/mongodb-org/3.4/multiverse amd64 Packages
+Ign http://ppa.launchpad.net trusty InRelease
+Get:30 http://security.ubuntu.com trusty-security/universe i386 Packages [206 kB]
+Get:31 http://in.archive.ubuntu.com trusty-updates/multiverse i386 Packages [15.0 kB]
+Ign https://repo.skype.com stable/main Translation-en
+Ign https://deb.nodesource.com trusty/main Translation-en_US.UTF-8
+Get:32 http://security.ubuntu.com trusty-security/multiverse i386 Packages [4,951 B]
+Ign http://repo.mongodb.org trusty/mongodb-org/3.4/multiverse Translation-en_US
+Get:33 http://in.archive.ubuntu.com trusty-updates/main Translation-en [525 kB]
+Hit http://ppa.launchpad.net trusty Release.gpg
+Ign https://repo.skype.com stable/main Translation-en_US.UTF-8
+Ign http://repo.mongodb.org trusty/mongodb-org/3.4/multiverse Translation-en
+Hit http://security.ubuntu.com trusty-security/main Translation-en
+Hit http://security.ubuntu.com trusty-security/multiverse Translation-en
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit http://security.ubuntu.com trusty-security/restricted Translation-en
+Ign http://repo.mongodb.org trusty/mongodb-org/3.4/multiverse Translation-en_US.UTF-8
+Hit http://security.ubuntu.com trusty-security/universe Translation-en
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Get:34 http://in.archive.ubuntu.com trusty-updates/multiverse Translation-en [7,616 B]
+Ign http://dl.google.com stable/main Translation-en_US
+Ign http://repo.mysql.com trusty/mysql-apt-config i386 Packages/DiffIndex
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Ign http://download.mono-project.com trusty/main Translation-en_US
+Get:35 http://in.archive.ubuntu.com trusty-updates/restricted Translation-en [4,024 B]
+Ign http://dl.google.com stable/main Translation-en
+Get:36 http://in.archive.ubuntu.com trusty-updates/universe Translation-en [242 kB]
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit http://in.archive.ubuntu.com trusty-backports/main Sources
+Ign http://download.mono-project.com trusty/main Translation-en
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Ign http://dl.google.com stable/main Translation-en_US.UTF-8
+Hit http://in.archive.ubuntu.com trusty-backports/restricted Sources
+Hit http://in.archive.ubuntu.com trusty-backports/universe Sources
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Hit http://in.archive.ubuntu.com trusty-backports/multiverse Sources
+Ign http://download.mono-project.com trusty/main Translation-en_US.UTF-8
+Hit http://in.archive.ubuntu.com trusty-backports/main amd64 Packages
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit http://in.archive.ubuntu.com trusty-backports/restricted amd64 Packages
+Hit http://in.archive.ubuntu.com trusty-backports/universe amd64 Packages
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Hit http://in.archive.ubuntu.com trusty-backports/multiverse amd64 Packages
+Hit http://in.archive.ubuntu.com trusty-backports/main i386 Packages
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Hit http://in.archive.ubuntu.com trusty-backports/restricted i386 Packages
+Hit http://in.archive.ubuntu.com trusty-backports/universe i386 Packages
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit http://in.archive.ubuntu.com trusty-backports/multiverse i386 Packages
+Hit http://in.archive.ubuntu.com trusty-backports/main Translation-en
+Ign http://repo.mysql.com trusty/mysql-5.7-dmr i386 Packages/DiffIndex
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Hit http://in.archive.ubuntu.com trusty-backports/multiverse Translation-en
+Ign http://apt.postgresql.org trusty-pgdg/main Translation-en_US
+Hit http://in.archive.ubuntu.com trusty-backports/restricted Translation-en
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Ign http://apt.postgresql.org trusty-pgdg/main Translation-en
+Hit http://in.archive.ubuntu.com trusty-backports/universe Translation-en
+Hit http://ppa.launchpad.net trusty Release.gpg
+Hit http://in.archive.ubuntu.com trusty Release
+Ign http://apt.postgresql.org trusty-pgdg/main Translation-en_US.UTF-8
+Hit http://in.archive.ubuntu.com trusty/main Sources
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit http://in.archive.ubuntu.com trusty/restricted Sources
+Hit http://in.archive.ubuntu.com trusty/universe Sources
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Hit http://in.archive.ubuntu.com trusty/multiverse Sources
+Hit http://in.archive.ubuntu.com trusty/main amd64 Packages
+Hit http://in.archive.ubuntu.com trusty/restricted amd64 Packages
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Hit http://in.archive.ubuntu.com trusty/universe amd64 Packages
+Hit http://in.archive.ubuntu.com trusty/multiverse amd64 Packages
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit http://in.archive.ubuntu.com trusty/main i386 Packages
+Hit http://in.archive.ubuntu.com trusty/restricted i386 Packages
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Hit http://in.archive.ubuntu.com trusty/universe i386 Packages
+Hit http://in.archive.ubuntu.com trusty/multiverse i386 Packages
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Hit http://in.archive.ubuntu.com trusty/main Translation-en
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Hit http://in.archive.ubuntu.com trusty/multiverse Translation-en
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit http://in.archive.ubuntu.com trusty/restricted Translation-en
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Hit http://in.archive.ubuntu.com trusty/universe Translation-en
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Hit http://ppa.launchpad.net trusty Release.gpg
+Hit http://ppa.launchpad.net trusty Release
+Hit http://ppa.launchpad.net trusty Release
+Hit http://ppa.launchpad.net trusty Release
+Hit http://ppa.launchpad.net trusty/main Sources
+Ign https://download.docker.com trusty/edge Translation-en_US
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Ign https://download.docker.com trusty/edge Translation-en
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Ign https://download.docker.com trusty/edge Translation-en_US.UTF-8
+Ign https://download.docker.com trusty/stable Translation-en_US
+Ign http://in.archive.ubuntu.com trusty/main Translation-en_US
+Ign http://in.archive.ubuntu.com trusty/main Translation-en_US.UTF-8
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Ign https://download.docker.com trusty/stable Translation-en
+Ign http://in.archive.ubuntu.com trusty/multiverse Translation-en_US
+Ign http://in.archive.ubuntu.com trusty/multiverse Translation-en_US.UTF-8
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Ign http://in.archive.ubuntu.com trusty/restricted Translation-en_US
+Ign http://in.archive.ubuntu.com trusty/restricted Translation-en_US.UTF-8
+Ign https://download.docker.com trusty/stable Translation-en_US.UTF-8
+Ign http://in.archive.ubuntu.com trusty/universe Translation-en_US
+Ign http://in.archive.ubuntu.com trusty/universe Translation-en_US.UTF-8
+Ign http://ppa.launchpad.net trusty/main Translation-en_US
+Ign http://ppa.launchpad.net trusty/main Translation-en
+Ign http://ppa.launchpad.net trusty/main Translation-en_US.UTF-8
+Ign http://ppa.launchpad.net trusty/main Translation-en_US
+Ign http://ppa.launchpad.net trusty/main Translation-en
+Ign http://ppa.launchpad.net trusty/main Translation-en_US.UTF-8
+Hit http://repo.mysql.com trusty/mysql-5.7-dmr Sources
+Hit http://repo.mysql.com trusty/mysql-apt-config amd64 Packages
+Hit http://repo.mysql.com trusty/mysql-5.7-dmr amd64 Packages
+Hit http://repo.mysql.com trusty/mysql-apt-config i386 Packages
+Hit http://repo.mysql.com trusty/mysql-5.7-dmr i386 Packages
+Ign http://repo.mysql.com trusty/mysql-5.7-dmr Translation-en_US
+Ign http://repo.mysql.com trusty/mysql-5.7-dmr Translation-en
+Ign http://repo.mysql.com trusty/mysql-5.7-dmr Translation-en_US.UTF-8
+Ign http://repo.mysql.com trusty/mysql-apt-config Translation-en_US
+Ign http://repo.mysql.com trusty/mysql-apt-config Translation-en
+Ign http://repo.mysql.com trusty/mysql-apt-config Translation-en_US.UTF-8
+Hit http://packages.microsoft.com stable/main amd64 Packages
+Ign http://packages.microsoft.com stable/main Translation-en_US
+Ign http://packages.microsoft.com stable/main Translation-en
+Ign http://packages.microsoft.com stable/main Translation-en_US.UTF-8
+Fetched 6,675 kB in 1min 41s (65.8 kB/s)
+Reading package lists...
+W: GPG error: http://repo.mysql.com trusty InRelease: The following signatures were invalid: KEYEXPIRED 1487236823 KEYEXPIRED 1487236823 KEYEXPIRED 1487236823
+W: GPG error: http://repo.mongodb.org trusty/mongodb-org/3.4 Release: The following signatures were invalid: KEYEXPIRED 1515625755
+W: Duplicate sources.list entry http://ppa.launchpad.net/chris-lea/libsodium/ubuntu/ trusty/main amd64 Packages (/var/lib/apt/lists/ppa.launchpad.net_chris-lea_libsodium_ubuntu_dists_trusty_main_binary-amd64_Packages)
+W: Duplicate sources.list entry http://ppa.launchpad.net/chris-lea/libsodium/ubuntu/ trusty/main amd64 Packages (/var/lib/apt/lists/ppa.launchpad.net_chris-lea_libsodium_ubuntu_dists_trusty_main_binary-amd64_Packages)
+W: Duplicate sources.list entry http://ppa.launchpad.net/chris-lea/libsodium/ubuntu/ trusty/main i386 Packages (/var/lib/apt/lists/ppa.launchpad.net_chris-lea_libsodium_ubuntu_dists_trusty_main_binary-i386_Packages)
+W: Duplicate sources.list entry http://ppa.launchpad.net/chris-lea/libsodium/ubuntu/ trusty/main i386 Packages (/var/lib/apt/lists/ppa.launchpad.net_chris-lea_libsodium_ubuntu_dists_trusty_main_binary-i386_Packages)
+
+## Confirming "trusty" is supported...
+
++ curl -sLf -o /dev/null 'https://deb.nodesource.com/node_6.x/dists/trusty/Release'
+
+## Adding the NodeSource signing key to your keyring...
+
++ curl -s https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add -
+OK
+
+## Creating apt sources list file for the NodeSource Node.js v6.x LTS Boron repo...
+
++ echo 'deb https://deb.nodesource.com/node_6.x trusty main' > /etc/apt/sources.list.d/nodesource.list
++ echo 'deb-src https://deb.nodesource.com/node_6.x trusty main' >> /etc/apt/sources.list.d/nodesource.list
+
+## Running `apt-get update` for you...
+
++ apt-get update
+Get:1 http://repo.mysql.com trusty InRelease [33.5 kB]
+Ign http://repo.mysql.com trusty InRelease
+Hit http://download.mono-project.com trusty InRelease
+Hit http://download.mono-project.com trusty/main amd64 Packages
+Hit http://download.mono-project.com trusty/main i386 Packages
+Hit https://repo.skype.com stable InRelease
+Hit https://repo.skype.com stable/main amd64 Packages
+Hit http://packages.microsoft.com stable InRelease
+Ign http://extras.ubuntu.com trusty InRelease
+Ign http://ppa.launchpad.net trusty InRelease
+Get:2 http://security.ubuntu.com trusty-security InRelease [65.9 kB]
+Ign http://repo.mongodb.org trusty/mongodb-org/3.4 InRelease
+Ign http://dl.google.com stable InRelease
+Hit http://packages.microsoft.com stable/main amd64 Packages
+Ign http://in.archive.ubuntu.com trusty InRelease
+Hit http://extras.ubuntu.com trusty Release.gpg
+Ign http://archive.canonical.com trusty InRelease
+Get:3 http://in.archive.ubuntu.com trusty-updates InRelease [65.9 kB]
+Hit http://extras.ubuntu.com trusty Release
+Hit http://ppa.launchpad.net trusty InRelease
+Hit http://dl.google.com stable Release.gpg
+Get:4 https://deb.nodesource.com trusty InRelease
+Ign http://archive.canonical.com trusty InRelease
+Get:5 http://repo.mongodb.org trusty/mongodb-org/3.4 Release.gpg [801 B]
+Hit http://apt.postgresql.org trusty-pgdg InRelease
+Hit http://extras.ubuntu.com trusty/main Sources
+Get:6 https://deb.nodesource.com trusty/main Sources
+Hit http://extras.ubuntu.com trusty/main amd64 Packages
+Get:7 https://deb.nodesource.com trusty/main amd64 Packages
+Hit http://archive.canonical.com trusty Release.gpg
+Hit http://ppa.launchpad.net trusty InRelease
+Hit https://download.docker.com trusty InRelease
+Get:8 http://security.ubuntu.com trusty-security/main Sources [153 kB]
+Hit http://dl.google.com stable Release
+Get:9 https://deb.nodesource.com trusty/main i386 Packages
+Hit http://extras.ubuntu.com trusty/main i386 Packages
+Hit http://in.archive.ubuntu.com trusty-backports InRelease
+Hit https://download.docker.com trusty/stable amd64 Packages
+Hit http://repo.mongodb.org trusty/mongodb-org/3.4 Release
+Ign http://repo.mongodb.org trusty/mongodb-org/3.4 Release
+Get:10 https://deb.nodesource.com trusty/main Translation-en_US
+Hit http://archive.canonical.com trusty Release.gpg
+Get:11 https://repo.skype.com stable/main Translation-en_US
+Hit https://download.docker.com trusty/edge amd64 Packages
+Ign http://repo.mongodb.org trusty/mongodb-org/3.4/multiverse amd64 Packages/DiffIndex
+Hit http://in.archive.ubuntu.com trusty Release.gpg
+Hit http://ppa.launchpad.net trusty InRelease
+Hit http://dl.google.com stable/main amd64 Packages
+Ign http://packages.microsoft.com stable/main Translation-en_US
+Get:12 http://in.archive.ubuntu.com trusty-updates/main Sources [414 kB]
+Hit http://archive.canonical.com trusty Release
+Get:13 http://security.ubuntu.com trusty-security/restricted Sources [4,931 B]
+Ign http://packages.microsoft.com stable/main Translation-en
+Hit http://apt.postgresql.org trusty-pgdg/main amd64 Packages
+Ign http://packages.microsoft.com stable/main Translation-en_US.UTF-8
+Hit http://ppa.launchpad.net trusty InRelease
+Get:14 http://security.ubuntu.com trusty-security/universe Sources [69.3 kB]
+Hit http://archive.canonical.com trusty Release
+Get:15 http://security.ubuntu.com trusty-security/multiverse Sources [3,185 B]
+Ign http://ppa.launchpad.net trusty InRelease
+Hit http://archive.canonical.com trusty/partner amd64 Packages
+Get:16 https://download.docker.com trusty/edge Translation-en_US
+Get:17 http://security.ubuntu.com trusty-security/main amd64 Packages [723 kB]
+Get:18 http://in.archive.ubuntu.com trusty-updates/restricted Sources [6,322 B]
+Hit http://archive.canonical.com trusty/partner i386 Packages
+Hit http://apt.postgresql.org trusty-pgdg/main i386 Packages
+Get:19 http://in.archive.ubuntu.com trusty-updates/universe Sources [198 kB]
+Hit http://ppa.launchpad.net trusty InRelease
+Ign http://repo.mysql.com trusty/mysql-5.7-dmr Sources/DiffIndex
+Hit http://archive.canonical.com trusty/partner Translation-en
+Get:20 http://in.archive.ubuntu.com trusty-updates/multiverse Sources [7,368 B]
+Get:21 http://security.ubuntu.com trusty-security/restricted amd64 Packages [14.1 kB]
+Hit http://ppa.launchpad.net trusty InRelease
+Hit http://archive.canonical.com trusty/partner amd64 Packages
+Get:22 http://in.archive.ubuntu.com trusty-updates/main amd64 Packages [1,064 kB]
+Get:23 http://security.ubuntu.com trusty-security/universe amd64 Packages [212 kB]
+Hit http://archive.canonical.com trusty/partner i386 Packages
+Ign http://repo.mysql.com trusty/mysql-apt-config amd64 Packages/DiffIndex
+Hit http://ppa.launchpad.net trusty InRelease
+Hit http://archive.canonical.com trusty/partner Translation-en
+Ign https://deb.nodesource.com trusty/main Translation-en_US
+Ign http://extras.ubuntu.com trusty/main Translation-en_US
+Ign https://deb.nodesource.com trusty/main Translation-en
+Get:24 http://in.archive.ubuntu.com trusty-updates/restricted amd64 Packages [17.2 kB]
+Hit http://ppa.launchpad.net trusty InRelease
+Ign http://extras.ubuntu.com trusty/main Translation-en
+Hit http://repo.mongodb.org trusty/mongodb-org/3.4/multiverse amd64 Packages
+Get:25 http://in.archive.ubuntu.com trusty-updates/universe amd64 Packages [448 kB]
+Get:26 http://security.ubuntu.com trusty-security/multiverse amd64 Packages [4,796 B]
+Ign http://extras.ubuntu.com trusty/main Translation-en_US.UTF-8
+Ign https://deb.nodesource.com trusty/main Translation-en_US.UTF-8
+Ign http://ppa.launchpad.net trusty InRelease
+Ign http://repo.mongodb.org trusty/mongodb-org/3.4/multiverse Translation-en_US
+Get:27 http://security.ubuntu.com trusty-security/main i386 Packages [670 kB]
+Ign http://repo.mysql.com trusty/mysql-5.7-dmr amd64 Packages/DiffIndex
+Ign http://repo.mongodb.org trusty/mongodb-org/3.4/multiverse Translation-en
+Get:28 http://in.archive.ubuntu.com trusty-updates/multiverse amd64 Packages [14.6 kB]
+Get:29 http://in.archive.ubuntu.com trusty-updates/main i386 Packages [1,005 kB]
+Hit http://ppa.launchpad.net trusty Release.gpg
+Ign http://repo.mysql.com trusty/mysql-apt-config i386 Packages/DiffIndex
+Ign http://repo.mongodb.org trusty/mongodb-org/3.4/multiverse Translation-en_US.UTF-8
+Get:30 http://security.ubuntu.com trusty-security/restricted i386 Packages [13.9 kB]
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Get:31 http://security.ubuntu.com trusty-security/universe i386 Packages [206 kB]
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Get:32 http://security.ubuntu.com trusty-security/multiverse i386 Packages [4,951 B]
+Get:33 http://in.archive.ubuntu.com trusty-updates/restricted i386 Packages [17.1 kB]
+Ign http://repo.mysql.com trusty/mysql-5.7-dmr i386 Packages/DiffIndex
+Hit http://security.ubuntu.com trusty-security/main Translation-en
+Get:34 http://in.archive.ubuntu.com trusty-updates/universe i386 Packages [443 kB]
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Hit http://security.ubuntu.com trusty-security/multiverse Translation-en
+Ign http://dl.google.com stable/main Translation-en_US
+Hit http://security.ubuntu.com trusty-security/restricted Translation-en
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit http://security.ubuntu.com trusty-security/universe Translation-en
+Ign http://dl.google.com stable/main Translation-en
+Get:35 http://in.archive.ubuntu.com trusty-updates/multiverse i386 Packages [15.0 kB]
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Hit http://in.archive.ubuntu.com trusty-updates/main Translation-en
+Ign https://repo.skype.com stable/main Translation-en_US
+Hit http://in.archive.ubuntu.com trusty-updates/multiverse Translation-en
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Ign http://dl.google.com stable/main Translation-en_US.UTF-8
+Ign https://repo.skype.com stable/main Translation-en
+Hit http://in.archive.ubuntu.com trusty-updates/restricted Translation-en
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit http://in.archive.ubuntu.com trusty-updates/universe Translation-en
+Hit http://in.archive.ubuntu.com trusty-backports/main Sources
+Ign https://repo.skype.com stable/main Translation-en_US.UTF-8
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Hit http://in.archive.ubuntu.com trusty-backports/restricted Sources
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Hit http://in.archive.ubuntu.com trusty-backports/universe Sources
+Hit http://in.archive.ubuntu.com trusty-backports/multiverse Sources
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit http://in.archive.ubuntu.com trusty-backports/main amd64 Packages
+Hit http://in.archive.ubuntu.com trusty-backports/restricted amd64 Packages
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Hit http://in.archive.ubuntu.com trusty-backports/universe amd64 Packages
+Hit http://in.archive.ubuntu.com trusty-backports/multiverse amd64 Packages
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Hit http://in.archive.ubuntu.com trusty-backports/main i386 Packages
+Hit http://in.archive.ubuntu.com trusty-backports/restricted i386 Packages
+Hit http://ppa.launchpad.net trusty Release.gpg
+Hit http://in.archive.ubuntu.com trusty-backports/universe i386 Packages
+Hit http://in.archive.ubuntu.com trusty-backports/multiverse i386 Packages
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit http://in.archive.ubuntu.com trusty-backports/main Translation-en
+Hit http://in.archive.ubuntu.com trusty-backports/multiverse Translation-en
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Ign http://apt.postgresql.org trusty-pgdg/main Translation-en_US
+Hit http://in.archive.ubuntu.com trusty-backports/restricted Translation-en
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Ign http://apt.postgresql.org trusty-pgdg/main Translation-en
+Hit http://in.archive.ubuntu.com trusty-backports/universe Translation-en
+Hit http://in.archive.ubuntu.com trusty Release
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Ign http://apt.postgresql.org trusty-pgdg/main Translation-en_US.UTF-8
+Hit http://in.archive.ubuntu.com trusty/main Sources
+Hit http://in.archive.ubuntu.com trusty/restricted Sources
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Hit http://in.archive.ubuntu.com trusty/universe Sources
+Hit http://in.archive.ubuntu.com trusty/multiverse Sources
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Hit http://in.archive.ubuntu.com trusty/main amd64 Packages
+Hit http://in.archive.ubuntu.com trusty/restricted amd64 Packages
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit http://in.archive.ubuntu.com trusty/universe amd64 Packages
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Hit http://in.archive.ubuntu.com trusty/multiverse amd64 Packages
+Hit http://in.archive.ubuntu.com trusty/main i386 Packages
+Hit http://in.archive.ubuntu.com trusty/restricted i386 Packages
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Hit http://in.archive.ubuntu.com trusty/universe i386 Packages
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit http://in.archive.ubuntu.com trusty/multiverse i386 Packages
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Hit http://in.archive.ubuntu.com trusty/main Translation-en
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Hit http://in.archive.ubuntu.com trusty/multiverse Translation-en
+Hit http://ppa.launchpad.net trusty Release.gpg
+Hit http://ppa.launchpad.net trusty Release
+Hit http://in.archive.ubuntu.com trusty/restricted Translation-en
+Hit http://ppa.launchpad.net trusty Release
+Hit http://ppa.launchpad.net trusty Release
+Ign https://download.docker.com trusty/edge Translation-en_US
+Hit http://ppa.launchpad.net trusty/main Sources
+Hit http://in.archive.ubuntu.com trusty/universe Translation-en
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Ign https://download.docker.com trusty/edge Translation-en
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Ign https://download.docker.com trusty/edge Translation-en_US.UTF-8
+Hit http://ppa.launchpad.net trusty/main Translation-en
+Ign http://download.mono-project.com trusty/main Translation-en_US
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Ign http://download.mono-project.com trusty/main Translation-en
+Ign https://download.docker.com trusty/stable Translation-en_US
+Ign http://download.mono-project.com trusty/main Translation-en_US.UTF-8
+Ign https://download.docker.com trusty/stable Translation-en
+Ign https://download.docker.com trusty/stable Translation-en_US.UTF-8
+Hit http://ppa.launchpad.net trusty/main amd64 Packages
+Hit http://ppa.launchpad.net trusty/main i386 Packages
+Ign http://in.archive.ubuntu.com trusty/main Translation-en_US
+Ign http://in.archive.ubuntu.com trusty/main Translation-en_US.UTF-8
+Ign http://in.archive.ubuntu.com trusty/multiverse Translation-en_US
+Ign http://in.archive.ubuntu.com trusty/multiverse Translation-en_US.UTF-8
+Ign http://in.archive.ubuntu.com trusty/restricted Translation-en_US
+Ign http://in.archive.ubuntu.com trusty/restricted Translation-en_US.UTF-8
+Ign http://in.archive.ubuntu.com trusty/universe Translation-en_US
+Ign http://in.archive.ubuntu.com trusty/universe Translation-en_US.UTF-8
+Ign http://ppa.launchpad.net trusty/main Translation-en_US
+Ign http://ppa.launchpad.net trusty/main Translation-en
+Ign http://ppa.launchpad.net trusty/main Translation-en_US.UTF-8
+Ign http://ppa.launchpad.net trusty/main Translation-en_US
+Ign http://ppa.launchpad.net trusty/main Translation-en
+Ign http://ppa.launchpad.net trusty/main Translation-en_US.UTF-8
+Hit http://repo.mysql.com trusty/mysql-5.7-dmr Sources
+Hit http://repo.mysql.com trusty/mysql-apt-config amd64 Packages
+Hit http://repo.mysql.com trusty/mysql-5.7-dmr amd64 Packages
+Hit http://repo.mysql.com trusty/mysql-apt-config i386 Packages
+Hit http://repo.mysql.com trusty/mysql-5.7-dmr i386 Packages
+Ign http://repo.mysql.com trusty/mysql-5.7-dmr Translation-en_US
+Ign http://repo.mysql.com trusty/mysql-5.7-dmr Translation-en
+Ign http://repo.mysql.com trusty/mysql-5.7-dmr Translation-en_US.UTF-8
+Ign http://repo.mysql.com trusty/mysql-apt-config Translation-en_US
+Ign http://repo.mysql.com trusty/mysql-apt-config Translation-en
+Ign http://repo.mysql.com trusty/mysql-apt-config Translation-en_US.UTF-8
+Fetched 5,902 kB in 1min 1s (96.5 kB/s)
+Reading package lists...
+W: GPG error: http://repo.mysql.com trusty InRelease: The following signatures were invalid: KEYEXPIRED 1487236823 KEYEXPIRED 1487236823 KEYEXPIRED 1487236823
+W: GPG error: http://repo.mongodb.org trusty/mongodb-org/3.4 Release: The following signatures were invalid: KEYEXPIRED 1515625755
+W: Duplicate sources.list entry http://ppa.launchpad.net/chris-lea/libsodium/ubuntu/ trusty/main amd64 Packages (/var/lib/apt/lists/ppa.launchpad.net_chris-lea_libsodium_ubuntu_dists_trusty_main_binary-amd64_Packages)
+W: Duplicate sources.list entry http://ppa.launchpad.net/chris-lea/libsodium/ubuntu/ trusty/main amd64 Packages (/var/lib/apt/lists/ppa.launchpad.net_chris-lea_libsodium_ubuntu_dists_trusty_main_binary-amd64_Packages)
+W: Duplicate sources.list entry http://ppa.launchpad.net/chris-lea/libsodium/ubuntu/ trusty/main i386 Packages (/var/lib/apt/lists/ppa.launchpad.net_chris-lea_libsodium_ubuntu_dists_trusty_main_binary-i386_Packages)
+W: Duplicate sources.list entry http://ppa.launchpad.net/chris-lea/libsodium/ubuntu/ trusty/main i386 Packages (/var/lib/apt/lists/ppa.launchpad.net_chris-lea_libsodium_ubuntu_dists_trusty_main_binary-i386_Packages)
+
+## Run `apt-get install nodejs` (as root) to install Node.js v6.x LTS Boron and npm
+
+Selecting previously unselected package nodejs.
+(Reading database ... 206957 files and directories currently installed.)
+Preparing to unpack .../nodejs_6.13.1-1nodesource1_amd64.deb ...
+Unpacking nodejs (6.13.1-1nodesource1) ...
+Processing triggers for man-db (2.6.7.1-1) ...
+Setting up nodejs (6.13.1-1nodesource1) ...
+/usr/bin/grunt -> /usr/lib/node_modules/grunt-cli/bin/grunt
+/usr/lib
+└── grunt-cli@1.2.0 
+
+npm WARN deprecated bower@1.8.2: ...psst! Your project can stop working at any moment because its dependencies can change. Prevent this by migrating to Yarn: https://bower.io/blog/2017/how-to-migrate-away-from-bower/
+npm ERR! fetch failed https://github.com/ShiftNrg/node-ip/tarball/master
+npm WARN retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND github.com github.com:443
+npm ERR! fetch failed https://github.com/LiskHQ/decompress-zip/tarball/master
+npm WARN retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND github.com github.com:443
+npm ERR! fetch failed https://github.com/LiskHQ/json-sql/tarball/master
+npm WARN retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND github.com github.com:443
+npm ERR! fetch failed https://github.com/ShiftNrg/lisk-sandbox/tarball/master
+npm WARN retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND github.com github.com:443
+
+> libpq@1.8.7 install /home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/libpq
+> node-gyp rebuild
+
+make: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/libpq/build'
+  CXX(target) Release/obj.target/addon/src/connection.o
+../src/connection.cc: In member function ‘void Connection::Emit(const char*)’:
+../src/connection.cc:804:46: warning: ‘v8::Local<v8::Value> Nan::MakeCallback(v8::Local<v8::Object>, v8::Local<v8::Function>, int, v8::Local<v8::Value>*)’ is deprecated (declared at ../../nan/nan.h:929) [-Wdeprecated-declarations]
+   Nan::MakeCallback(handle(), emit_f, 1, info);
+                                              ^
+./Release/.deps/Release/obj.target/addon/src/connection.o.d.raw { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 1000,
+  gid: 1000,
+  rdev: 0,
+  blksize: 4096,
+  ino: 7219885,
+  size: 1549,
+  blocks: 8,
+  atime: 2018-03-28T10:20:56.000Z,
+  mtime: 2018-03-28T10:20:56.000Z,
+  ctime: 2018-03-28T10:20:56.157Z,
+  birthtime: 2018-03-28T10:20:56.157Z }
+  CXX(target) Release/obj.target/addon/src/connect-async-worker.o
+./Release/.deps/Release/obj.target/addon/src/connect-async-worker.o.d.raw { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 1000,
+  gid: 1000,
+  rdev: 0,
+  blksize: 4096,
+  ino: 7219885,
+  size: 1569,
+  blocks: 8,
+  atime: 2018-03-28T10:20:57.000Z,
+  mtime: 2018-03-28T10:20:57.000Z,
+  ctime: 2018-03-28T10:20:57.017Z,
+  birthtime: 2018-03-28T10:20:57.017Z }
+  CXX(target) Release/obj.target/addon/src/addon.o
+./Release/.deps/Release/obj.target/addon/src/addon.o.d.raw { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 1000,
+  gid: 1000,
+  rdev: 0,
+  blksize: 4096,
+  ino: 7219885,
+  size: 1536,
+  blocks: 8,
+  atime: 2018-03-28T10:20:58.000Z,
+  mtime: 2018-03-28T10:20:58.000Z,
+  ctime: 2018-03-28T10:20:58.016Z,
+  birthtime: 2018-03-28T10:20:58.016Z }
+  SOLINK_MODULE(target) Release/obj.target/addon.node
+  COPY Release/addon.node
+make: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/libpq/build'
+shift@6.4.1 /home/pankaj/Documents/BelerumCodebase/Belrium
+├── async@2.1.4 
+├── bignumber.js@4.0.0 
+├─┬ bitcore-mnemonic@1.5.0 
+│ ├─┬ bitcore-lib@0.15.0 
+│ │ ├── bn.js@4.11.8 
+│ │ ├─┬ bs58@4.0.1 
+│ │ │ └── base-x@3.0.4 
+│ │ ├── buffer-compare@1.1.1 
+│ │ ├─┬ elliptic@6.4.0 
+│ │ │ ├── brorand@1.1.0 
+│ │ │ ├─┬ hash.js@1.1.3 
+│ │ │ │ └── inherits@2.0.3 
+│ │ │ ├── hmac-drbg@1.0.1 
+│ │ │ ├── minimalistic-assert@1.0.0 
+│ │ │ └── minimalistic-crypto-utils@1.0.1 
+│ │ └── inherits@2.0.1 
+│ └── unorm@1.4.1 
+├── bluebird@3.5.1 
+├─┬ body-parser@1.16.0 
+│ ├── bytes@2.4.0 
+│ ├── content-type@1.0.4 
+│ ├─┬ debug@2.6.0 
+│ │ └── ms@0.7.2 
+│ ├── depd@1.1.2 
+│ ├─┬ http-errors@1.5.1 
+│ │ ├── inherits@2.0.3 
+│ │ ├── setprototypeof@1.0.2 
+│ │ └── statuses@1.5.0 
+│ ├── iconv-lite@0.4.15 
+│ ├─┬ on-finished@2.3.0 
+│ │ └── ee-first@1.1.1 
+│ ├── qs@6.2.1 
+│ ├─┬ raw-body@2.2.0 
+│ │ └── unpipe@1.0.0 
+│ └─┬ type-is@1.6.16 
+│   └── media-typer@0.3.0 
+├─┬ bytebuffer@5.0.1 
+│ └── long@3.2.0 
+├─┬ change-case@3.0.1 
+│ ├── camel-case@3.0.0 
+│ ├── constant-case@2.0.0 
+│ ├── dot-case@2.1.1 
+│ ├── header-case@1.0.1 
+│ ├── is-lower-case@1.1.3 
+│ ├── is-upper-case@1.1.2 
+│ ├── lower-case@1.1.4 
+│ ├── lower-case-first@1.0.2 
+│ ├── no-case@2.3.2 
+│ ├── param-case@2.1.1 
+│ ├── pascal-case@2.0.1 
+│ ├── path-case@2.1.1 
+│ ├── sentence-case@2.1.1 
+│ ├── snake-case@2.1.0 
+│ ├── swap-case@1.1.2 
+│ ├── title-case@2.1.1 
+│ ├── upper-case@1.1.3 
+│ └── upper-case-first@1.1.2 
+├── circular-json@0.3.1 
+├── colors@1.1.2 
+├─┬ commander@2.9.0 
+│ └── graceful-readlink@1.0.1 
+├─┬ compression@1.6.2 
+│ ├─┬ accepts@1.3.5 
+│ │ └── negotiator@0.6.1 
+│ ├── bytes@2.3.0 
+│ ├─┬ compressible@2.0.13 
+│ │ └── mime-db@1.33.0 
+│ ├─┬ debug@2.2.0 
+│ │ └── ms@0.7.1 
+│ ├── on-headers@1.0.1 
+│ └── vary@1.1.2 
+├── cors@2.8.1 
+├─┬ decompress-zip@0.3.0 
+│ ├─┬ binary@0.3.0 
+│ │ ├── buffers@0.1.1 
+│ │ └─┬ chainsaw@0.1.0 
+│ │   └── traverse@0.3.9 
+│ ├── graceful-fs@4.1.11 
+│ ├── mkpath@1.0.0 
+│ ├─┬ nopt@3.0.6 
+│ │ └── abbrev@1.1.1 
+│ ├── q@1.5.1 
+│ ├─┬ readable-stream@2.3.5 
+│ │ ├── core-util-is@1.0.2 
+│ │ ├── inherits@2.0.3 
+│ │ ├── isarray@1.0.0 
+│ │ ├── process-nextick-args@2.0.0 
+│ │ ├── string_decoder@1.0.3 
+│ │ └── util-deprecate@1.0.2 
+│ └─┬ touch@1.0.0 
+│   └── nopt@1.0.10 
+├── ejs@2.5.5 
+├─┬ express@4.14.1 
+│ ├── array-flatten@1.1.1 
+│ ├── content-disposition@0.5.2 
+│ ├── cookie@0.3.1 
+│ ├── cookie-signature@1.0.6 
+│ ├─┬ debug@2.2.0 
+│ │ └── ms@0.7.1 
+│ ├── encodeurl@1.0.2 
+│ ├── escape-html@1.0.3 
+│ ├── etag@1.7.0 
+│ ├─┬ finalhandler@0.5.1 
+│ │ ├─┬ debug@2.2.0 
+│ │ │ └── ms@0.7.1 
+│ │ └── statuses@1.3.1 
+│ ├── fresh@0.3.0 
+│ ├── merge-descriptors@1.0.1 
+│ ├── methods@1.1.2 
+│ ├── parseurl@1.3.2 
+│ ├── path-to-regexp@0.1.7 
+│ ├─┬ proxy-addr@1.1.5 
+│ │ ├── forwarded@0.1.2 
+│ │ └── ipaddr.js@1.4.0 
+│ ├── qs@6.2.0 
+│ ├── range-parser@1.2.0 
+│ ├─┬ send@0.14.2 
+│ │ ├─┬ debug@2.2.0 
+│ │ │ └── ms@0.7.1 
+│ │ ├── destroy@1.0.4 
+│ │ ├── mime@1.3.4 
+│ │ └── statuses@1.3.1 
+│ ├── serve-static@1.11.2 
+│ └── utils-merge@1.0.0 
+├── express-domain-middleware@0.1.0 
+├── express-query-int@1.0.1 
+├─┬ express-rate-limit@2.6.0 
+│ └─┬ defaults@1.0.3 
+│   └── clone@1.0.4 
+├── extend@3.0.0 
+├── ip@1.1.5 
+├── json-schema@0.2.3 
+├─┬ json-sql@0.2.6 
+│ └── underscore@1.8.3 
+├── lisk-sandbox@1.0.5 
+├── lodash@4.17.4 
+├─┬ method-override@2.3.7 
+│ └── debug@2.3.3 
+├─┬ node-schedule@1.3.0 
+│ ├─┬ cron-parser@2.4.5 
+│ │ ├─┬ is-nan@1.2.1 
+│ │ │ └─┬ define-properties@1.1.2 
+│ │ │   ├── foreach@2.0.5 
+│ │ │   └── object-keys@1.0.11 
+│ │ └─┬ moment-timezone@0.5.14 
+│ │   └── moment@2.21.0 
+│ ├── long-timeout@0.1.1 
+│ └── sorted-array-functions@1.1.0 
+├─┬ npm@2.15.10 
+│ ├── abbrev@1.0.9 
+│ ├── ansi@0.3.1 
+│ ├── ansi-regex@2.0.0 
+│ ├── ansicolors@0.3.2 
+│ ├── ansistyles@0.1.3 
+│ ├── archy@1.0.0 
+│ ├── async-some@1.0.2 
+│ ├── block-stream@0.0.9 
+│ ├── char-spinner@1.0.1 
+│ ├── chmodr@1.0.2 
+│ ├── chownr@1.0.1 
+│ ├── cmd-shim@2.0.2 
+│ ├─┬ columnify@1.5.4 
+│ │ └─┬ wcwidth@1.0.0 
+│ │   └─┬ defaults@1.0.3 
+│ │     └── clone@1.0.2 
+│ ├─┬ config-chain@1.1.10 
+│ │ └── proto-list@1.2.4 
+│ ├─┬ dezalgo@1.0.3 
+│ │ └── asap@2.0.3 
+│ ├── editor@1.0.0 
+│ ├── fs-vacuum@1.2.9 
+│ ├─┬ fs-write-stream-atomic@1.0.8 
+│ │ └── iferr@0.1.5 
+│ ├── fstream@1.0.10 
+│ ├─┬ fstream-npm@1.1.1 
+│ │ └── fstream-ignore@1.0.5 
+│ ├── github-url-from-git@1.4.0 
+│ ├── github-url-from-username-repo@1.0.2 
+│ ├─┬ glob@7.0.5 
+│ │ ├── fs.realpath@1.0.0 
+│ │ └── path-is-absolute@1.0.0 
+│ ├── graceful-fs@4.1.5 
+│ ├── hosted-git-info@2.1.5 
+│ ├── imurmurhash@0.1.4 
+│ ├── inflight@1.0.5 
+│ ├── inherits@2.0.1 
+│ ├── ini@1.3.4 
+│ ├─┬ init-package-json@1.9.4 
+│ │ ├─┬ glob@6.0.4 
+│ │ │ └── path-is-absolute@1.0.0 
+│ │ └── promzard@0.3.0 
+│ ├── lockfile@1.0.1 
+│ ├─┬ lru-cache@4.0.1 
+│ │ ├── pseudomap@1.0.2 
+│ │ └── yallist@2.0.0 
+│ ├─┬ minimatch@3.0.3 
+│ │ └─┬ brace-expansion@1.1.6 
+│ │   ├── balanced-match@0.4.2 
+│ │   └── concat-map@0.0.1 
+│ ├─┬ mkdirp@0.5.1 
+│ │ └── minimist@0.0.8 
+│ ├─┬ node-gyp@3.4.0 
+│ │ └─┬ path-array@1.0.1 
+│ │   └─┬ array-index@1.0.0 
+│ │     ├─┬ debug@2.2.0 
+│ │     │ └── ms@0.7.1 
+│ │     └─┬ es6-symbol@3.1.0 
+│ │       ├── d@0.1.1 
+│ │       └─┬ es5-ext@0.10.12 
+│ │         └── es6-iterator@2.0.0 
+│ ├── nopt@3.0.6 
+│ ├── normalize-git-url@3.0.2 
+│ ├─┬ normalize-package-data@2.3.5 
+│ │ └─┬ is-builtin-module@1.0.0 
+│ │   └── builtin-modules@1.1.0 
+│ ├── npm-cache-filename@1.0.2 
+│ ├── npm-install-checks@1.0.7 
+│ ├── npm-package-arg@4.1.0 
+│ ├─┬ npm-registry-client@7.1.2 
+│ │ ├─┬ concat-stream@1.5.1 
+│ │ │ ├─┬ readable-stream@2.0.6 
+│ │ │ │ ├── core-util-is@1.0.2 
+│ │ │ │ ├── isarray@1.0.0 
+│ │ │ │ ├── process-nextick-args@1.0.7 
+│ │ │ │ ├── string_decoder@0.10.31 
+│ │ │ │ └── util-deprecate@1.0.2 
+│ │ │ └── typedarray@0.0.6 
+│ │ └── retry@0.8.0 
+│ ├── npm-user-validate@0.1.5 
+│ ├─┬ npmlog@2.0.4 
+│ │ ├─┬ are-we-there-yet@1.1.2 
+│ │ │ └── delegates@1.0.0 
+│ │ └─┬ gauge@1.2.7 
+│ │   ├── has-unicode@2.0.0 
+│ │   ├─┬ lodash.pad@4.4.0 
+│ │   │ ├── lodash._baseslice@4.0.0 
+│ │   │ ├── lodash._basetostring@4.12.0 
+│ │   │ └── lodash.tostring@4.1.4 
+│ │   ├── lodash.padend@4.5.0 
+│ │   └── lodash.padstart@4.5.0 
+│ ├── once@1.3.3 
+│ ├── opener@1.4.1 
+│ ├─┬ osenv@0.1.3 
+│ │ ├── os-homedir@1.0.0 
+│ │ └── os-tmpdir@1.0.1 
+│ ├── path-is-inside@1.0.1 
+│ ├─┬ read@1.0.7 
+│ │ └── mute-stream@0.0.5 
+│ ├─┬ read-installed@4.0.3 
+│ │ ├── debuglog@1.0.1 
+│ │ ├── readdir-scoped-modules@1.0.2 
+│ │ └── util-extend@1.0.1 
+│ ├─┬ read-package-json@2.0.4 
+│ │ ├─┬ glob@6.0.4 
+│ │ │ └── path-is-absolute@1.0.0 
+│ │ └─┬ json-parse-helpfulerror@1.0.3 
+│ │   └── jju@1.3.0 
+│ ├─┬ readable-stream@2.1.4 
+│ │ ├── buffer-shims@1.0.0 
+│ │ ├── core-util-is@1.0.2 
+│ │ ├── isarray@1.0.0 
+│ │ ├── process-nextick-args@1.0.7 
+│ │ ├── string_decoder@0.10.31 
+│ │ └── util-deprecate@1.0.2 
+│ ├── realize-package-specifier@3.0.1 
+│ ├─┬ request@2.74.0 
+│ │ ├── aws-sign2@0.6.0 
+│ │ ├── aws4@1.4.1 
+│ │ ├─┬ bl@1.1.2 
+│ │ │ └─┬ readable-stream@2.0.6 
+│ │ │   ├── core-util-is@1.0.2 
+│ │ │   ├── isarray@1.0.0 
+│ │ │   ├── process-nextick-args@1.0.7 
+│ │ │   ├── string_decoder@0.10.31 
+│ │ │   └── util-deprecate@1.0.2 
+│ │ ├── caseless@0.11.0 
+│ │ ├─┬ combined-stream@1.0.5 
+│ │ │ └── delayed-stream@1.0.0 
+│ │ ├── extend@3.0.0 
+│ │ ├── forever-agent@0.6.1 
+│ │ ├─┬ form-data@1.0.0-rc4 
+│ │ │ └── async@1.5.2 
+│ │ ├─┬ har-validator@2.0.6 
+│ │ │ ├─┬ chalk@1.1.3 
+│ │ │ │ ├── ansi-styles@2.2.1 
+│ │ │ │ ├── escape-string-regexp@1.0.5 
+│ │ │ │ ├── has-ansi@2.0.0 
+│ │ │ │ └── supports-color@2.0.0 
+│ │ │ ├─┬ commander@2.9.0 
+│ │ │ │ └── graceful-readlink@1.0.1 
+│ │ │ ├─┬ is-my-json-valid@2.13.1 
+│ │ │ │ ├── generate-function@2.0.0 
+│ │ │ │ ├─┬ generate-object-property@1.2.0 
+│ │ │ │ │ └── is-property@1.0.2 
+│ │ │ │ ├── jsonpointer@2.0.0 
+│ │ │ │ └── xtend@4.0.1 
+│ │ │ └─┬ pinkie-promise@2.0.1 
+│ │ │   └── pinkie@2.0.4 
+│ │ ├─┬ hawk@3.1.3 
+│ │ │ ├── boom@2.10.1 
+│ │ │ ├── cryptiles@2.0.5 
+│ │ │ ├── hoek@2.16.3 
+│ │ │ └── sntp@1.0.9 
+│ │ ├─┬ http-signature@1.1.1 
+│ │ │ ├── assert-plus@0.2.0 
+│ │ │ ├─┬ jsprim@1.3.0 
+│ │ │ │ ├── extsprintf@1.0.2 
+│ │ │ │ ├── json-schema@0.2.2 
+│ │ │ │ └── verror@1.3.6 
+│ │ │ └─┬ sshpk@1.9.2 
+│ │ │   ├── asn1@0.2.3 
+│ │ │   ├── assert-plus@1.0.0 
+│ │ │   ├── dashdash@1.14.0 
+│ │ │   ├── ecc-jsbn@0.1.1 
+│ │ │   ├── getpass@0.1.6 
+│ │ │   ├── jodid25519@1.0.2 
+│ │ │   ├── jsbn@0.1.0 
+│ │ │   └── tweetnacl@0.13.3 
+│ │ ├── is-typedarray@1.0.0 
+│ │ ├── isstream@0.1.2 
+│ │ ├── json-stringify-safe@5.0.1 
+│ │ ├─┬ mime-types@2.1.11 
+│ │ │ └── mime-db@1.23.0 
+│ │ ├── node-uuid@1.4.7 
+│ │ ├── oauth-sign@0.8.2 
+│ │ ├── qs@6.2.1 
+│ │ ├── stringstream@0.0.5 
+│ │ ├── tough-cookie@2.3.1 
+│ │ └── tunnel-agent@0.4.3 
+│ ├── retry@0.9.0 
+│ ├── rimraf@2.5.4 
+│ ├── semver@5.1.0 
+│ ├─┬ sha@2.0.1 
+│ │ └─┬ readable-stream@2.0.2 
+│ │   ├── core-util-is@1.0.1 
+│ │   ├── isarray@0.0.1 
+│ │   ├── process-nextick-args@1.0.3 
+│ │   ├── string_decoder@0.10.31 
+│ │   └── util-deprecate@1.0.1 
+│ ├── slide@1.1.6 
+│ ├── sorted-object@2.0.0 
+│ ├── spdx-license-ids@1.2.2 
+│ ├── strip-ansi@3.0.1 
+│ ├── tar@2.2.1 
+│ ├── text-table@0.2.0 
+│ ├── uid-number@0.0.6 
+│ ├── umask@1.1.0 
+│ ├─┬ validate-npm-package-license@3.0.1 
+│ │ ├── spdx-correct@1.0.2 
+│ │ └─┬ spdx-expression-parse@1.0.2 
+│ │   └── spdx-exceptions@1.0.4 
+│ ├─┬ validate-npm-package-name@2.2.2 
+│ │ └── builtins@0.0.7 
+│ ├─┬ which@1.2.10 
+│ │ └── isexe@1.1.2 
+│ ├── wrappy@1.0.2 
+│ └── write-file-atomic@1.1.4 
+├─┬ pg-monitor@0.7.1 
+│ └─┬ cli-color@1.2.0 
+│   ├── ansi-regex@2.1.1 
+│   ├── d@1.0.0 
+│   ├─┬ es5-ext@0.10.42 
+│   │ ├── es6-symbol@3.1.1 
+│   │ └── next-tick@1.0.0 
+│   ├── es6-iterator@2.0.3 
+│   ├─┬ memoizee@0.4.12 
+│   │ ├── es6-weak-map@2.0.2 
+│   │ ├── event-emitter@0.3.5 
+│   │ ├── is-promise@2.1.0 
+│   │ └── lru-queue@0.1.0 
+│   └── timers-ext@0.1.5 
+├─┬ pg-native@1.10.0 
+│ ├─┬ libpq@1.8.7 
+│ │ ├── bindings@1.2.1 
+│ │ └── nan@2.10.0 
+│ ├── pg-types@1.6.0 
+│ └─┬ readable-stream@1.0.31 
+│   ├── isarray@0.0.1 
+│   └── string_decoder@0.10.31 
+├─┬ pg-promise@5.5.6 
+│ ├── manakin@0.4.8 
+│ ├─┬ pg@5.1.0 
+│ │ ├── buffer-writer@1.0.1 
+│ │ ├── generic-pool@2.4.2 
+│ │ ├── packet-reader@0.2.0 
+│ │ ├── pg-connection-string@0.1.3 
+│ │ ├─┬ pgpass@0.0.6 
+│ │ │ └─┬ split@1.0.1 
+│ │ │   └── through@2.3.8 
+│ │ └── semver@4.3.2 
+│ ├── pg-minify@0.4.5 
+│ └── spex@1.1.1 
+├─┬ popsicle@9.0.0 
+│ ├─┬ concat-stream@1.6.2 
+│ │ ├── buffer-from@1.0.0 
+│ │ ├── inherits@2.0.3 
+│ │ └── typedarray@0.0.6 
+│ ├─┬ form-data@2.3.2 
+│ │ └── asynckit@0.4.0 
+│ ├─┬ make-error-cause@1.2.2 
+│ │ └── make-error@1.3.4 
+│ └─┬ tough-cookie@2.3.4 
+│   └── punycode@1.4.1 
+├─┬ randomstring@1.1.5 
+│ └── array-uniq@1.0.2 
+├─┬ request@2.85.0 
+│ ├── aws-sign2@0.7.0 
+│ ├── aws4@1.6.0 
+│ ├── caseless@0.12.0 
+│ ├─┬ combined-stream@1.0.6 
+│ │ └── delayed-stream@1.0.0 
+│ ├── extend@3.0.1 
+│ ├── forever-agent@0.6.1 
+│ ├─┬ har-validator@5.0.3 
+│ │ ├─┬ ajv@5.5.2 
+│ │ │ ├── co@4.6.0 
+│ │ │ ├── fast-deep-equal@1.1.0 
+│ │ │ ├── fast-json-stable-stringify@2.0.0 
+│ │ │ └── json-schema-traverse@0.3.1 
+│ │ └── har-schema@2.0.0 
+│ ├─┬ hawk@6.0.2 
+│ │ ├── boom@4.3.1 
+│ │ ├─┬ cryptiles@3.1.2 
+│ │ │ └── boom@5.2.0 
+│ │ ├── hoek@4.2.1 
+│ │ └── sntp@2.1.0 
+│ ├─┬ http-signature@1.2.0 
+│ │ ├── assert-plus@1.0.0 
+│ │ ├─┬ jsprim@1.4.1 
+│ │ │ ├── extsprintf@1.3.0 
+│ │ │ └── verror@1.10.0 
+│ │ └─┬ sshpk@1.14.1 
+│ │   ├── asn1@0.2.3 
+│ │   ├── bcrypt-pbkdf@1.0.1 
+│ │   ├── dashdash@1.14.1 
+│ │   ├── ecc-jsbn@0.1.1 
+│ │   ├── getpass@0.1.7 
+│ │   ├── jsbn@0.1.1 
+│ │   └── tweetnacl@0.14.5 
+│ ├── is-typedarray@1.0.0 
+│ ├── isstream@0.1.2 
+│ ├── json-stringify-safe@5.0.1 
+│ ├── mime-types@2.1.18 
+│ ├── oauth-sign@0.8.2 
+│ ├── performance-now@2.1.0 
+│ ├── qs@6.5.1 
+│ ├── safe-buffer@5.1.1 
+│ ├── stringstream@0.0.5 
+│ ├── tunnel-agent@0.6.0 
+│ └── uuid@3.2.1 
+├─┬ rimraf@2.5.4 
+│ └─┬ glob@7.1.2 
+│   ├── fs.realpath@1.0.0 
+│   ├─┬ inflight@1.0.6 
+│   │ └── wrappy@1.0.2 
+│   ├─┬ minimatch@3.0.4 
+│   │ └─┬ brace-expansion@1.1.11 
+│   │   ├── balanced-match@1.0.0 
+│   │   └── concat-map@0.0.1 
+│   ├── once@1.4.0 
+│   └── path-is-absolute@1.0.1 
+├── semver@5.3.0 
+├─┬ socket.io@1.7.2 
+│ ├── debug@2.3.3 
+│ ├─┬ engine.io@1.8.2 
+│ │ ├── accepts@1.3.3 
+│ │ ├── base64id@1.0.0 
+│ │ ├── debug@2.3.3 
+│ │ ├─┬ engine.io-parser@1.3.2 
+│ │ │ ├── after@0.8.2 
+│ │ │ ├── arraybuffer.slice@0.0.6 
+│ │ │ ├── base64-arraybuffer@0.1.5 
+│ │ │ ├── blob@0.0.4 
+│ │ │ └── wtf-8@1.0.0 
+│ │ └─┬ ws@1.1.1 
+│ │   ├── options@0.0.6 
+│ │   └── ultron@1.0.2 
+│ ├─┬ has-binary@0.1.7 
+│ │ └── isarray@0.0.1 
+│ ├── object-assign@4.1.0 
+│ ├─┬ socket.io-adapter@0.5.0 
+│ │ └── debug@2.3.3 
+│ ├─┬ socket.io-client@1.7.2 
+│ │ ├── backo2@1.0.2 
+│ │ ├── component-bind@1.0.0 
+│ │ ├── component-emitter@1.2.1 
+│ │ ├── debug@2.3.3 
+│ │ ├─┬ engine.io-client@1.8.2 
+│ │ │ ├── component-emitter@1.2.1 
+│ │ │ ├── component-inherit@0.0.3 
+│ │ │ ├── debug@2.3.3 
+│ │ │ ├── has-cors@1.1.0 
+│ │ │ ├── parsejson@0.0.3 
+│ │ │ ├── parseqs@0.0.5 
+│ │ │ ├── xmlhttprequest-ssl@1.5.3 
+│ │ │ └── yeast@0.1.2 
+│ │ ├── indexof@0.0.1 
+│ │ ├── object-component@0.0.3 
+│ │ ├─┬ parseuri@0.0.5 
+│ │ │ └─┬ better-assert@1.0.2 
+│ │ │   └── callsite@1.0.0 
+│ │ └── to-array@0.1.4 
+│ └─┬ socket.io-parser@2.3.1 
+│   ├── component-emitter@1.1.2 
+│   ├─┬ debug@2.2.0 
+│   │ └── ms@0.7.1 
+│   ├── isarray@0.0.1 
+│   └── json3@3.3.2 
+├── strftime@0.10.0 
+├── valid-url@1.0.9 
+├── validator@6.2.1 
+├── validator.js@2.0.3 
+└─┬ z-schema@3.18.2 
+  ├── lodash.get@4.4.2 
+  └── lodash.isequal@4.5.0 
+
+shift@6.4.1 /home/pankaj/Documents/BelerumCodebase/Belrium
+├── nan@2.2.1  extraneous
+└─┬ pg-native@1.10.0
+  └─┬ libpq@1.8.7
+    └── nan@2.10.0 
+
+
+> sodium@2.0.3 preinstall /home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5
+> node install.js --preinstall
+
+Static libsodium was not found at /home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/build/lib/libsodium so compiling libsodium from source.
+autoreconf: Entering directory `.'
+autoreconf: configure.ac: not using Gettext
+autoreconf: running: aclocal --force -I m4
+autoreconf: configure.ac: tracing
+autoreconf: configure.ac: creating directory build-aux
+autoreconf: running: libtoolize --copy --force
+build-aux/ltmain.sh { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 0,
+  gid: 0,
+  rdev: 0,
+  blksize: 4096,
+  ino: 15340990,
+  size: 283684,
+  blocks: 560,
+  atime: 2018-03-28T10:21:18.000Z,
+  mtime: 2018-03-28T10:21:18.000Z,
+  ctime: 2018-03-28T10:21:18.758Z,
+  birthtime: 2018-03-28T10:21:18.758Z }
+libtoolize: putting auxiliary files in AC_CONFIG_AUX_DIR, `build-aux'.
+libtoolize: copying file `build-aux/ltmain.sh'
+m4/libtool.m4 { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 0,
+  gid: 0,
+  rdev: 0,
+  blksize: 4096,
+  ino: 6171905,
+  size: 286793,
+  blocks: 568,
+  atime: 2018-03-28T10:21:18.000Z,
+  mtime: 2018-03-28T10:21:18.000Z,
+  ctime: 2018-03-28T10:21:18.926Z,
+  birthtime: 2018-03-28T10:21:18.926Z }
+libtoolize: putting macros in AC_CONFIG_MACRO_DIR, `m4'.
+libtoolize: copying file `m4/libtool.m4'
+m4/ltoptions.m4 { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 0,
+  gid: 0,
+  rdev: 0,
+  blksize: 4096,
+  ino: 6171906,
+  size: 12347,
+  blocks: 32,
+  atime: 2018-03-28T10:21:19.000Z,
+  mtime: 2018-03-28T10:21:19.000Z,
+  ctime: 2018-03-28T10:21:19.110Z,
+  birthtime: 2018-03-28T10:21:19.110Z }
+libtoolize: copying file `m4/ltoptions.m4'
+m4/ltsugar.m4 { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 0,
+  gid: 0,
+  rdev: 0,
+  blksize: 4096,
+  ino: 6171907,
+  size: 4372,
+  blocks: 16,
+  atime: 2018-03-28T10:21:19.000Z,
+  mtime: 2018-03-28T10:21:19.000Z,
+  ctime: 2018-03-28T10:21:19.294Z,
+  birthtime: 2018-03-28T10:21:19.294Z }
+libtoolize: copying file `m4/ltsugar.m4'
+m4/ltversion.m4 { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 0,
+  gid: 0,
+  rdev: 0,
+  blksize: 4096,
+  ino: 6171908,
+  size: 690,
+  blocks: 8,
+  atime: 2018-03-28T10:21:19.000Z,
+  mtime: 2018-03-28T10:21:19.000Z,
+  ctime: 2018-03-28T10:21:19.474Z,
+  birthtime: 2018-03-28T10:21:19.474Z }
+libtoolize: copying file `m4/ltversion.m4'
+m4/lt~obsolete.m4 { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 0,
+  gid: 0,
+  rdev: 0,
+  blksize: 4096,
+  ino: 6171909,
+  size: 6126,
+  blocks: 16,
+  atime: 2018-03-28T10:21:19.000Z,
+  mtime: 2018-03-28T10:21:19.000Z,
+  ctime: 2018-03-28T10:21:19.662Z,
+  birthtime: 2018-03-28T10:21:19.662Z }
+libtoolize: copying file `m4/lt~obsolete.m4'
+autoreconf: running: /usr/bin/autoconf --force
+autoreconf: configure.ac: not using Autoheader
+autoreconf: running: automake --add-missing --copy --force-missing
+configure.ac:76: installing 'build-aux/compile'
+configure.ac:9: installing 'build-aux/config.guess'
+configure.ac:9: installing 'build-aux/config.sub'
+configure.ac:10: installing 'build-aux/install-sh'
+configure.ac:10: installing 'build-aux/missing'
+src/libsodium/Makefile.am: installing 'build-aux/depcomp'
+parallel-tests: installing 'build-aux/test-driver'
+autoreconf: Leaving directory `.'
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether UID '0' is supported by ustar format... yes
+checking whether GID '0' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking whether make supports nested variables... (cached) yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking whether gcc is Clang... no
+checking whether pthreads work with -pthread... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking whether more special flags are required for pthreads... no
+checking for PTHREAD_PRIO_INHERIT... yes
+checking for gcc option to accept ISO C99... -std=gnu99
+checking dependency style of gcc -std=gnu99... gcc3
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for __native_client__ defined... no
+checking for _FORTIFY_SOURCE defined... yes
+checking whether C compiler accepts -fvisibility=hidden... yes
+checking whether C compiler accepts -fPIC... yes
+checking whether C compiler accepts -fPIE... yes
+checking whether the linker accepts -pie... yes
+checking whether C compiler accepts -fno-strict-aliasing... yes
+checking whether C compiler accepts -fno-strict-overflow... yes
+checking whether C compiler accepts -fstack-protector... yes
+checking whether the linker accepts -fstack-protector... yes
+checking whether C compiler accepts -Wwrite-strings... yes
+checking whether C compiler accepts -Wdiv-by-zero... yes
+checking whether C compiler accepts -Wsometimes-uninitialized... no
+checking whether C compiler accepts  -Wall... yes
+checking whether C compiler accepts  -Wall -Wextra... yes
+checking for clang... no
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast... yes
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast -Wcast-align... yes
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast -Wcast-align -Wcast-qual... yes
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast -Wcast-align -Wcast-qual -Wduplicated-cond... no
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast -Wcast-align -Wcast-qual -Wfloat-equal... yes
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast -Wcast-align -Wcast-qual -Wfloat-equal -Wformat=2... yes
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast -Wcast-align -Wcast-qual -Wfloat-equal -Wformat=2 -Wmissing-declarations... yes
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast -Wcast-align -Wcast-qual -Wfloat-equal -Wformat=2 -Wmissing-declarations -Wmissing-prototypes... yes
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast -Wcast-align -Wcast-qual -Wfloat-equal -Wformat=2 -Wmissing-declarations -Wmissing-prototypes -Wnested-externs... yes
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast -Wcast-align -Wcast-qual -Wfloat-equal -Wformat=2 -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-type-limits... yes
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast -Wcast-align -Wcast-qual -Wfloat-equal -Wformat=2 -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-type-limits -Wno-unknown-pragmas... yes
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast -Wcast-align -Wcast-qual -Wfloat-equal -Wformat=2 -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-type-limits -Wno-unknown-pragmas -Wnormalized=id... yes
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast -Wcast-align -Wcast-qual -Wfloat-equal -Wformat=2 -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-type-limits -Wno-unknown-pragmas -Wnormalized=id -Wnull-dereference... no
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast -Wcast-align -Wcast-qual -Wfloat-equal -Wformat=2 -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-type-limits -Wno-unknown-pragmas -Wnormalized=id -Wold-style-declaration... yes
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast -Wcast-align -Wcast-qual -Wfloat-equal -Wformat=2 -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-type-limits -Wno-unknown-pragmas -Wnormalized=id -Wold-style-declaration -Wpointer-arith... yes
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast -Wcast-align -Wcast-qual -Wfloat-equal -Wformat=2 -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-type-limits -Wno-unknown-pragmas -Wnormalized=id -Wold-style-declaration -Wpointer-arith -Wredundant-decls... yes
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast -Wcast-align -Wcast-qual -Wfloat-equal -Wformat=2 -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-type-limits -Wno-unknown-pragmas -Wnormalized=id -Wold-style-declaration -Wpointer-arith -Wredundant-decls -Wshorten-64-to-32... no
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast -Wcast-align -Wcast-qual -Wfloat-equal -Wformat=2 -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-type-limits -Wno-unknown-pragmas -Wnormalized=id -Wold-style-declaration -Wpointer-arith -Wredundant-decls -Wstrict-prototypes... yes
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast -Wcast-align -Wcast-qual -Wfloat-equal -Wformat=2 -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-type-limits -Wno-unknown-pragmas -Wnormalized=id -Wold-style-declaration -Wpointer-arith -Wredundant-decls -Wstrict-prototypes -Wswitch-enum... yes
+checking whether C compiler accepts  -Wall -Wextra -Wbad-function-cast -Wcast-align -Wcast-qual -Wfloat-equal -Wformat=2 -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-type-limits -Wno-unknown-pragmas -Wnormalized=id -Wold-style-declaration -Wpointer-arith -Wredundant-decls -Wstrict-prototypes -Wswitch-enum -Wvariable-decl... no
+checking whether the linker accepts -Wl,-z,relro... yes
+checking whether the linker accepts -Wl,-z,now... yes
+checking whether the linker accepts -Wl,-z,noexecstack... yes
+checking for a broken clang + AVX512 combination... no
+checking whether segmentation violations can be caught when using the C compiler... yes
+checking whether SIGABRT can be caught when using the C compiler... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... (cached) /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc -std=gnu99... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 3458764513820540925
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc -std=gnu99 object... ok
+checking for sysroot... no
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc -std=gnu99 supports -fno-rtti -fno-exceptions... no
+checking for gcc -std=gnu99 option to produce PIC... -fPIC -DPIC
+checking if gcc -std=gnu99 PIC flag -fPIC -DPIC works... yes
+checking if gcc -std=gnu99 static flag -static works... no
+checking if gcc -std=gnu99 supports -c -o file.o... yes
+checking if gcc -std=gnu99 supports -c -o file.o... (cached) yes
+checking whether the gcc -std=gnu99 linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for ar... (cached) ar
+checking whether C compiler accepts -mmmx... yes
+checking for MMX instructions set... yes
+checking whether C compiler accepts -mmmx... (cached) yes
+checking whether C compiler accepts -msse2... yes
+checking for SSE2 instructions set... yes
+checking whether C compiler accepts -msse2... (cached) yes
+checking whether C compiler accepts -msse3... yes
+checking for SSE3 instructions set... yes
+checking whether C compiler accepts -msse3... (cached) yes
+checking whether C compiler accepts -mssse3... yes
+checking for SSSE3 instructions set... yes
+checking whether C compiler accepts -mssse3... (cached) yes
+checking whether C compiler accepts -msse4.1... yes
+checking for SSE4.1 instructions set... yes
+checking whether C compiler accepts -msse4.1... (cached) yes
+checking whether C compiler accepts -mavx... yes
+checking for AVX instructions set... yes
+checking whether C compiler accepts -mavx... (cached) yes
+checking whether C compiler accepts -mavx2... yes
+checking for AVX2 instructions set... yes
+checking whether C compiler accepts -mavx2... (cached) yes
+checking if _mm256_broadcastsi128_si256 is correctly defined... yes
+checking whether C compiler accepts -mavx512f... no
+checking for AVX512F instructions set... no
+checking whether C compiler accepts -maes... yes
+checking whether C compiler accepts -mpclmul... yes
+checking for AESNI instructions set and PCLMULQDQ... yes
+checking whether C compiler accepts -maes... (cached) yes
+checking whether C compiler accepts -mpclmul... (cached) yes
+checking sys/mman.h usability... yes
+checking sys/mman.h presence... yes
+checking for sys/mman.h... yes
+checking intrin.h usability... no
+checking intrin.h presence... no
+checking for intrin.h... no
+checking if _xgetbv() is available... no
+checking for inline... inline
+checking whether byte ordering is bigendian... (cached) no
+checking whether __STDC_LIMIT_MACROS is required... no
+checking whether we can use x86_64 asm code... yes
+checking whether we can assemble AVX opcodes... yes
+checking for 128-bit arithmetic... yes
+checking for cpuid instruction... yes
+checking if the .private_extern asm directive is supported... no
+checking if the .hidden asm directive is supported... yes
+checking if weak symbols are supported... yes
+checking if data alignment is required... no
+checking if atomic operations are supported... yes
+checking for arc4random... no
+checking for arc4random_buf... no
+checking for mmap... yes
+checking for mlock... yes
+checking for madvise... yes
+checking for mprotect... yes
+checking for memset_s... no
+checking for explicit_bzero... no
+checking for nanosleep... yes
+checking for posix_memalign... yes
+checking for getpid... yes
+checking if gcc/ld supports -Wl,--output-def... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating builds/Makefile
+config.status: creating contrib/Makefile
+config.status: creating dist-build/Makefile
+config.status: creating libsodium.pc
+config.status: creating libsodium-uninstalled.pc
+config.status: creating msvc-scripts/Makefile
+config.status: creating src/Makefile
+config.status: creating src/libsodium/Makefile
+config.status: creating src/libsodium/include/Makefile
+config.status: creating src/libsodium/include/sodium/version.h
+config.status: creating test/default/Makefile
+config.status: creating test/Makefile
+config.status: executing depfiles commands
+config.status: executing libtool commands
+make[1]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium'
+Making check in builds
+make[2]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/builds'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/builds'
+Making check in contrib
+make[2]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/contrib'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/contrib'
+Making check in dist-build
+make[2]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/dist-build'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/dist-build'
+Making check in msvc-scripts
+make[2]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/msvc-scripts'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/msvc-scripts'
+Making check in src
+make[2]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/src'
+Making check in libsodium
+make[3]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/src/libsodium'
+Making check in include
+make[4]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/src/libsodium/include'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/src/libsodium/include'
+make[4]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/src/libsodium'
+  CC       crypto_shorthash/siphash24/libsodium_la-shorthash_siphashx24.lo
+  CC       crypto_shorthash/siphash24/ref/libsodium_la-shorthash_siphashx24_ref.lo
+  CC       crypto_sign/ed25519/ref10/libsodium_la-obsolete.lo
+  CC       crypto_generichash/blake2b/ref/libssse3_la-blake2b-compress-ssse3.lo
+  CC       crypto_pwhash/argon2/libssse3_la-argon2-fill-block-ssse3.lo
+  CC       crypto_generichash/blake2b/ref/libsse41_la-blake2b-compress-sse41.lo
+  CC       crypto_generichash/blake2b/ref/libavx2_la-blake2b-compress-avx2.lo
+  CC       crypto_pwhash/argon2/libavx2_la-argon2-fill-block-avx2.lo
+  CC       crypto_stream/chacha20/dolbeau/libavx2_la-chacha20_dolbeau-avx2.lo
+  CC       crypto_pwhash/argon2/libavx512f_la-argon2-fill-block-avx512f.lo
+  CC       crypto_aead/chacha20poly1305/sodium/libsodium_la-aead_chacha20poly1305.lo
+  CC       crypto_aead/xchacha20poly1305/sodium/libsodium_la-aead_xchacha20poly1305.lo
+  CC       crypto_auth/libsodium_la-crypto_auth.lo
+  CC       crypto_auth/hmacsha256/libsodium_la-auth_hmacsha256.lo
+  CC       crypto_auth/hmacsha512/libsodium_la-auth_hmacsha512.lo
+  CC       crypto_auth/hmacsha512256/libsodium_la-auth_hmacsha512256.lo
+  CC       crypto_box/libsodium_la-crypto_box.lo
+  CC       crypto_box/libsodium_la-crypto_box_easy.lo
+  CC       crypto_box/libsodium_la-crypto_box_seal.lo
+  CC       crypto_box/curve25519xsalsa20poly1305/libsodium_la-box_curve25519xsalsa20poly1305.lo
+  CC       crypto_core/curve25519/ref10/libsodium_la-curve25519_ref10.lo
+  CC       crypto_core/hchacha20/libsodium_la-core_hchacha20.lo
+  CC       crypto_core/hsalsa20/ref2/libsodium_la-core_hsalsa20_ref2.lo
+  CC       crypto_core/hsalsa20/libsodium_la-core_hsalsa20.lo
+  CC       crypto_core/salsa/ref/libsodium_la-core_salsa_ref.lo
+  CC       crypto_generichash/libsodium_la-crypto_generichash.lo
+  CC       crypto_generichash/blake2b/libsodium_la-generichash_blake2.lo
+  CC       crypto_generichash/blake2b/ref/libsodium_la-blake2b-compress-ref.lo
+  CC       crypto_generichash/blake2b/ref/libsodium_la-blake2b-ref.lo
+  CC       crypto_generichash/blake2b/ref/libsodium_la-generichash_blake2b.lo
+  CC       crypto_hash/libsodium_la-crypto_hash.lo
+  CC       crypto_hash/sha256/libsodium_la-hash_sha256.lo
+  CC       crypto_hash/sha256/cp/libsodium_la-hash_sha256_cp.lo
+  CC       crypto_hash/sha512/libsodium_la-hash_sha512.lo
+  CC       crypto_hash/sha512/cp/libsodium_la-hash_sha512_cp.lo
+  CC       crypto_kdf/blake2b/libsodium_la-kdf_blake2b.lo
+  CC       crypto_kdf/libsodium_la-crypto_kdf.lo
+  CC       crypto_kx/libsodium_la-crypto_kx.lo
+  CC       crypto_onetimeauth/libsodium_la-crypto_onetimeauth.lo
+  CC       crypto_onetimeauth/poly1305/libsodium_la-onetimeauth_poly1305.lo
+  CC       crypto_onetimeauth/poly1305/donna/libsodium_la-poly1305_donna.lo
+  CC       crypto_pwhash/argon2/libsodium_la-argon2-core.lo
+  CC       crypto_pwhash/argon2/libsodium_la-argon2-encoding.lo
+  CC       crypto_pwhash/argon2/libsodium_la-argon2-fill-block-ref.lo
+  CC       crypto_pwhash/argon2/libsodium_la-argon2.lo
+  CC       crypto_pwhash/argon2/libsodium_la-blake2b-long.lo
+  CC       crypto_pwhash/argon2/libsodium_la-pwhash_argon2i.lo
+  CC       crypto_pwhash/argon2/libsodium_la-pwhash_argon2id.lo
+  CC       crypto_pwhash/libsodium_la-crypto_pwhash.lo
+  CC       crypto_scalarmult/libsodium_la-crypto_scalarmult.lo
+  CC       crypto_scalarmult/curve25519/libsodium_la-scalarmult_curve25519.lo
+  CC       crypto_secretbox/libsodium_la-crypto_secretbox.lo
+  CC       crypto_secretbox/libsodium_la-crypto_secretbox_easy.lo
+  CC       crypto_secretbox/xsalsa20poly1305/libsodium_la-secretbox_xsalsa20poly1305.lo
+  CC       crypto_secretstream/xchacha20poly1305/libsodium_la-secretstream_xchacha20poly1305.lo
+  CC       crypto_shorthash/libsodium_la-crypto_shorthash.lo
+  CC       crypto_shorthash/siphash24/libsodium_la-shorthash_siphash24.lo
+  CC       crypto_shorthash/siphash24/ref/libsodium_la-shorthash_siphash24_ref.lo
+  CC       crypto_sign/libsodium_la-crypto_sign.lo
+  CC       crypto_sign/ed25519/libsodium_la-sign_ed25519.lo
+  CC       crypto_sign/ed25519/ref10/libsodium_la-keypair.lo
+  CC       crypto_sign/ed25519/ref10/libsodium_la-open.lo
+  CC       crypto_sign/ed25519/ref10/libsodium_la-sign.lo
+  CC       crypto_stream/chacha20/libsodium_la-stream_chacha20.lo
+  CC       crypto_stream/chacha20/ref/libsodium_la-chacha20_ref.lo
+  CC       crypto_stream/libsodium_la-crypto_stream.lo
+  CC       crypto_stream/salsa20/libsodium_la-stream_salsa20.lo
+  CC       crypto_stream/xsalsa20/libsodium_la-stream_xsalsa20.lo
+  CC       crypto_verify/sodium/libsodium_la-verify.lo
+  CC       randombytes/libsodium_la-randombytes.lo
+  CC       sodium/libsodium_la-codecs.lo
+  CC       sodium/libsodium_la-core.lo
+  CC       sodium/libsodium_la-runtime.lo
+  CC       sodium/libsodium_la-utils.lo
+  CC       sodium/libsodium_la-version.lo
+  CC       randombytes/salsa20/libsodium_la-randombytes_salsa20_random.lo
+  CC       randombytes/sysrandom/libsodium_la-randombytes_sysrandom.lo
+  CC       crypto_scalarmult/curve25519/donna_c64/libsodium_la-curve25519_donna_c64.lo
+  CPPAS    crypto_stream/salsa20/xmm6/libsodium_la-salsa20_xmm6-asm.lo
+  CC       crypto_stream/salsa20/xmm6/libsodium_la-salsa20_xmm6.lo
+  CC       crypto_scalarmult/curve25519/sandy2x/libsodium_la-curve25519_sandy2x.lo
+  CC       crypto_scalarmult/curve25519/sandy2x/libsodium_la-fe51_invert.lo
+  CC       crypto_scalarmult/curve25519/sandy2x/libsodium_la-fe_frombytes_sandy2x.lo
+  CPPAS    crypto_scalarmult/curve25519/sandy2x/libsodium_la-sandy2x.lo
+  CC       crypto_box/curve25519xchacha20poly1305/libsodium_la-box_curve25519xchacha20poly1305.lo
+  CC       crypto_box/curve25519xchacha20poly1305/libsodium_la-box_seal_curve25519xchacha20poly1305.lo
+  CC       crypto_pwhash/scryptsalsa208sha256/libsodium_la-crypto_scrypt-common.lo
+  CC       crypto_pwhash/scryptsalsa208sha256/libsodium_la-scrypt_platform.lo
+  CC       crypto_pwhash/scryptsalsa208sha256/libsodium_la-pbkdf2-sha256.lo
+  CC       crypto_pwhash/scryptsalsa208sha256/libsodium_la-pwhash_scryptsalsa208sha256.lo
+  CC       crypto_pwhash/scryptsalsa208sha256/nosse/libsodium_la-pwhash_scryptsalsa208sha256_nosse.lo
+  CC       crypto_secretbox/xchacha20poly1305/libsodium_la-secretbox_xchacha20poly1305.lo
+  CC       crypto_stream/salsa2012/ref/libsodium_la-stream_salsa2012_ref.lo
+  CC       crypto_stream/salsa2012/libsodium_la-stream_salsa2012.lo
+  CC       crypto_stream/salsa208/ref/libsodium_la-stream_salsa208_ref.lo
+  CC       crypto_stream/salsa208/libsodium_la-stream_salsa208.lo
+  CC       crypto_stream/xchacha20/libsodium_la-stream_xchacha20.lo
+  CC       crypto_aead/aes256gcm/aesni/libaesni_la-aead_aes256gcm_aesni.lo
+  CC       crypto_onetimeauth/poly1305/sse2/libsse2_la-poly1305_sse2.lo
+  CC       crypto_pwhash/scryptsalsa208sha256/sse/libsse2_la-pwhash_scryptsalsa208sha256_sse.lo
+  CC       crypto_stream/chacha20/dolbeau/libssse3_la-chacha20_dolbeau-ssse3.lo
+  CCLD     libsse41.la
+libtool: link: warning: `-version-info/-version-number' is ignored for convenience libraries
+  CC       crypto_stream/salsa20/xmm6int/libavx2_la-salsa20_xmm6int-avx2.lo
+  CCLD     libavx512f.la
+  CCLD     libaesni.la
+libtool: link: warning: `-version-info/-version-number' is ignored for convenience libraries
+  CCLD     libsse2.la
+libtool: link: warning: `-version-info/-version-number' is ignored for convenience libraries
+  CCLD     libssse3.la
+libtool: link: warning: `-version-info/-version-number' is ignored for convenience libraries
+libtool: link: warning: `-version-info/-version-number' is ignored for convenience libraries
+  CCLD     libavx2.la
+libtool: link: warning: `-version-info/-version-number' is ignored for convenience libraries
+  CCLD     libsodium.la
+make[4]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/src/libsodium'
+make[3]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/src/libsodium'
+make[3]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/src'
+make[3]: Nothing to be done for `check-am'.
+make[3]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/src'
+make[2]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/src'
+Making check in test
+make[2]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/test'
+Making check in default
+make[3]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/test/default'
+make  aead_aes256gcm aead_chacha20poly1305 aead_xchacha20poly1305 auth auth2 auth3 auth5 auth6 auth7 box box2 box7 box8 box_easy box_easy2 box_seal box_seed chacha20 codecs core1 core2 core3 core4 core5 core6 ed25519_convert generichash generichash2 generichash3 hash hash3 kdf keygen kx metamorphic misuse onetimeauth onetimeauth2 onetimeauth7 pwhash_argon2i pwhash_argon2id randombytes scalarmult scalarmult2 scalarmult5 scalarmult6 scalarmult7 secretbox secretbox2 secretbox7 secretbox8 secretbox_easy secretbox_easy2 secretstream shorthash sign sodium_core sodium_utils sodium_version stream stream2 stream3 stream4 verify1 sodium_utils2 sodium_utils3 pwhash_scrypt pwhash_scrypt_ll siphashx24 xchacha20
+make[4]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/test/default'
+  CC       aead_aes256gcm.o
+  CC       aead_chacha20poly1305.o
+  CC       aead_xchacha20poly1305.o
+  CC       auth.o
+  CC       auth2.o
+  CC       auth3.o
+  CC       auth5.o
+  CC       auth6.o
+  CC       auth7.o
+  CC       box.o
+  CC       box2.o
+  CC       box7.o
+  CC       box8.o
+  CC       box_easy.o
+  CC       box_easy2.o
+  CC       box_seal.o
+  CC       box_seed.o
+  CC       chacha20.o
+  CC       codecs.o
+  CC       core1.o
+  CC       core2.o
+  CC       core3.o
+  CC       core4.o
+  CC       core5.o
+  CC       core6.o
+  CC       ed25519_convert.o
+  CC       generichash.o
+  CC       generichash2.o
+  CC       generichash3.o
+  CC       hash3.o
+  CC       hash.o
+  CC       kdf.o
+  CC       keygen.o
+  CC       kx.o
+  CC       metamorphic.o
+  CC       misuse.o
+  CC       onetimeauth.o
+  CC       onetimeauth2.o
+  CC       onetimeauth7.o
+  CC       pwhash_argon2i.o
+  CC       pwhash_argon2id.o
+  CC       randombytes.o
+  CC       scalarmult.o
+  CC       scalarmult2.o
+  CC       scalarmult5.o
+  CC       scalarmult6.o
+  CC       scalarmult7.o
+  CC       secretbox.o
+  CC       secretbox2.o
+  CC       secretbox7.o
+  CC       secretbox8.o
+  CC       secretbox_easy.o
+  CC       secretbox_easy2.o
+  CC       secretstream.o
+  CC       shorthash.o
+  CC       sign.o
+  CC       sodium_core.o
+  CC       sodium_utils.o
+  CC       sodium_version.o
+  CC       stream.o
+  CC       stream2.o
+  CC       stream3.o
+  CC       stream4.o
+  CC       verify1.o
+  CC       sodium_utils2.o
+  CC       sodium_utils3.o
+  CC       pwhash_scrypt.o
+  CC       pwhash_scrypt_ll.o
+  CC       siphashx24.o
+  CC       xchacha20.o
+  CCLD     aead_aes256gcm
+  CCLD     aead_chacha20poly1305
+  CCLD     aead_xchacha20poly1305
+  CCLD     auth
+  CCLD     auth2
+  CCLD     auth3
+  CCLD     auth5
+  CCLD     auth6
+  CCLD     auth7
+  CCLD     box
+  CCLD     box2
+  CCLD     box7
+  CCLD     box8
+  CCLD     box_easy
+  CCLD     box_easy2
+  CCLD     box_seal
+  CCLD     box_seed
+  CCLD     chacha20
+  CCLD     codecs
+  CCLD     core1
+  CCLD     core2
+  CCLD     core3
+  CCLD     core4
+  CCLD     core5
+  CCLD     core6
+  CCLD     ed25519_convert
+  CCLD     generichash
+  CCLD     generichash2
+  CCLD     generichash3
+  CCLD     hash
+  CCLD     hash3
+  CCLD     kdf
+  CCLD     keygen
+  CCLD     kx
+  CCLD     metamorphic
+  CCLD     misuse
+  CCLD     onetimeauth
+  CCLD     onetimeauth2
+  CCLD     onetimeauth7
+  CCLD     pwhash_argon2i
+  CCLD     pwhash_argon2id
+  CCLD     randombytes
+  CCLD     scalarmult
+  CCLD     scalarmult2
+  CCLD     scalarmult5
+  CCLD     scalarmult6
+  CCLD     scalarmult7
+  CCLD     secretbox
+  CCLD     secretbox2
+  CCLD     secretbox7
+  CCLD     secretbox8
+  CCLD     secretbox_easy
+  CCLD     secretbox_easy2
+  CCLD     secretstream
+  CCLD     shorthash
+  CCLD     sign
+  CCLD     sodium_core
+  CCLD     sodium_utils
+  CCLD     sodium_version
+  CCLD     stream
+  CCLD     stream2
+  CCLD     stream3
+  CCLD     stream4
+  CCLD     verify1
+  CCLD     sodium_utils2
+  CCLD     sodium_utils3
+  CCLD     pwhash_scrypt
+  CCLD     pwhash_scrypt_ll
+  CCLD     siphashx24
+  CCLD     xchacha20
+make[4]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/test/default'
+make  check-TESTS
+make[4]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/test/default'
+make[5]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/test/default'
+PASS: aead_chacha20poly1305
+PASS: aead_xchacha20poly1305
+PASS: auth
+PASS: aead_aes256gcm
+PASS: auth2
+PASS: auth3
+PASS: auth6
+PASS: box
+PASS: auth7
+PASS: box2
+PASS: auth5
+PASS: box_easy
+PASS: box_easy2
+PASS: box_seal
+PASS: box_seed
+PASS: box7
+PASS: chacha20
+PASS: core1
+PASS: codecs
+PASS: core2
+PASS: core4
+PASS: core3
+PASS: core5
+PASS: box8
+PASS: core6
+PASS: generichash
+PASS: generichash2
+PASS: generichash3
+PASS: hash
+PASS: hash3
+PASS: kdf
+PASS: keygen
+PASS: kx
+PASS: ed25519_convert
+PASS: misuse
+PASS: onetimeauth
+PASS: onetimeauth2
+PASS: onetimeauth7
+PASS: pwhash_argon2i
+PASS: metamorphic
+PASS: scalarmult
+PASS: pwhash_argon2id
+PASS: scalarmult2
+PASS: scalarmult5
+PASS: scalarmult6
+PASS: scalarmult7
+PASS: randombytes
+PASS: secretbox
+PASS: secretbox2
+PASS: secretbox_easy
+PASS: secretbox7
+PASS: secretbox_easy2
+PASS: shorthash
+PASS: secretstream
+PASS: secretbox8
+PASS: sodium_core
+PASS: sodium_version
+PASS: sodium_utils
+PASS: stream2
+PASS: stream3
+PASS: stream4
+PASS: sign
+PASS: stream
+PASS: sodium_utils3
+PASS: verify1
+PASS: sodium_utils2
+PASS: siphashx24
+PASS: pwhash_scrypt_ll
+PASS: xchacha20
+PASS: pwhash_scrypt
+make[6]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/test/default'
+make[6]: Nothing to be done for `all'.
+make[6]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/test/default'
+============================================================================
+Testsuite summary for libsodium 1.0.15
+============================================================================
+# TOTAL: 70
+# PASS:  70
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/test/default'
+make[4]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/test/default'
+make[3]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/test/default'
+make[3]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/test'
+make[3]: Nothing to be done for `check-am'.
+make[3]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/test'
+make[2]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/test'
+make[2]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium'
+make[2]: Nothing to be done for `check-am'.
+make[2]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium'
+make[1]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium'
+make[1]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium'
+Making install in builds
+make[2]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/builds'
+make[3]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/builds'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/builds'
+make[2]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/builds'
+Making install in contrib
+make[2]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/contrib'
+make[3]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/contrib'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/contrib'
+make[2]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/contrib'
+Making install in dist-build
+make[2]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/dist-build'
+make[3]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/dist-build'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/dist-build'
+make[2]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/dist-build'
+Making install in msvc-scripts
+make[2]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/msvc-scripts'
+make[3]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/msvc-scripts'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/msvc-scripts'
+make[2]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/msvc-scripts'
+Making install in src
+make[2]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/src'
+Making install in libsodium
+make[3]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/src/libsodium'
+Making install in include
+make[4]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/src/libsodium/include'
+make[5]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/src/libsodium/include'
+make[5]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/build/include'
+ /bin/mkdir -p '/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/build/include'
+ /bin/mkdir -p '/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/build/include/sodium'
+ /usr/bin/install -c -m 644  sodium/version.h '/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/build/include/sodium'
+ /bin/mkdir -p '/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/build/include/sodium'
+ /usr/bin/install -c -m 644  sodium/core.h sodium/crypto_aead_aes256gcm.h sodium/crypto_aead_chacha20poly1305.h sodium/crypto_aead_xchacha20poly1305.h sodium/crypto_auth.h sodium/crypto_auth_hmacsha256.h sodium/crypto_auth_hmacsha512.h sodium/crypto_auth_hmacsha512256.h sodium/crypto_box.h sodium/crypto_box_curve25519xchacha20poly1305.h sodium/crypto_box_curve25519xsalsa20poly1305.h sodium/crypto_core_hchacha20.h sodium/crypto_core_hsalsa20.h sodium/crypto_core_salsa20.h sodium/crypto_core_salsa2012.h sodium/crypto_core_salsa208.h sodium/crypto_generichash.h sodium/crypto_generichash_blake2b.h sodium/crypto_hash.h sodium/crypto_hash_sha256.h sodium/crypto_hash_sha512.h sodium/crypto_kdf.h sodium/crypto_kdf_blake2b.h sodium/crypto_kx.h sodium/crypto_onetimeauth.h sodium/crypto_onetimeauth_poly1305.h sodium/crypto_pwhash.h sodium/crypto_pwhash_argon2i.h sodium/crypto_pwhash_argon2id.h sodium/crypto_pwhash_scryptsalsa208sha256.h sodium/crypto_scalarmult.h sodium/crypto_scalarmult_curve25519.h sodium/crypto_secretbox.h sodium/crypto_secretbox_xchacha20poly1305.h sodium/crypto_secretbox_xsalsa20poly1305.h sodium/crypto_secretstream_xchacha20poly1305.h sodium/crypto_shorthash.h sodium/crypto_shorthash_siphash24.h sodium/crypto_sign.h sodium/crypto_sign_ed25519.h '/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/build/include/sodium'
+ /bin/mkdir -p '/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/build/include/sodium'
+ /usr/bin/install -c -m 644  sodium/crypto_sign_edwards25519sha512batch.h sodium/crypto_stream.h sodium/crypto_stream_chacha20.h sodium/crypto_stream_salsa20.h sodium/crypto_stream_salsa2012.h sodium/crypto_stream_salsa208.h sodium/crypto_stream_xchacha20.h sodium/crypto_stream_xsalsa20.h sodium/crypto_verify_16.h sodium/crypto_verify_32.h sodium/crypto_verify_64.h sodium/export.h sodium/randombytes.h sodium/randombytes_salsa20_random.h sodium/randombytes_sysrandom.h sodium/runtime.h sodium/utils.h '/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/build/include/sodium'
+ /usr/bin/install -c -m 644  sodium.h '/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/build/include/.'
+make[5]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/src/libsodium/include'
+make[4]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/src/libsodium/include'
+make[4]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/src/libsodium'
+make[5]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/src/libsodium'
+make[5]: Nothing to be done for `install-data-am'.
+ /bin/mkdir -p '/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/build/lib'
+ /bin/bash ../../libtool   --mode=install /usr/bin/install -c   libsodium.la '/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/build/lib'
+libtool: install: /usr/bin/install -c .libs/libsodium.so.23.0.0 /home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/build/lib/libsodium.so.23.0.0
+libtool: install: (cd /home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/build/lib && { ln -s -f libsodium.so.23.0.0 libsodium.so.23 || { rm -f libsodium.so.23 && ln -s libsodium.so.23.0.0 libsodium.so.23; }; })
+libtool: install: (cd /home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/build/lib && { ln -s -f libsodium.so.23.0.0 libsodium.so || { rm -f libsodium.so && ln -s libsodium.so.23.0.0 libsodium.so; }; })
+libtool: install: /usr/bin/install -c .libs/libsodium.lai /home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/build/lib/libsodium.la
+libtool: install: /usr/bin/install -c .libs/libsodium.a /home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/build/lib/libsodium.a
+libtool: install: chmod 644 /home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/build/lib/libsodium.a
+libtool: install: ranlib /home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/build/lib/libsodium.a
+libtool: finish: PATH="/usr/local/lib/node_modules/npm/bin/node-gyp-bin:/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/node_modules/.bin:/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/sbin" ldconfig -n /home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/build/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/build/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[5]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/src/libsodium'
+make[4]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/src/libsodium'
+make[3]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/src/libsodium'
+make[3]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/src'
+make[4]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/src'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/src'
+make[3]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/src'
+make[2]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/src'
+Making install in test
+make[2]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/test'
+Making install in default
+make[3]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/test/default'
+make[4]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/test/default'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/test/default'
+make[3]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/test/default'
+make[3]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/test'
+make[4]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/test'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/test'
+make[3]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/test'
+make[2]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium/test'
+make[2]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium'
+make[3]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium'
+make[3]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/build/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libsodium.pc '/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/build/lib/pkgconfig'
+make[3]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium'
+make[2]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium'
+make[1]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/.staging/sodium-c254f2e5/deps/libsodium'
+
+> sodium@2.0.3 install /home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/sodium
+> node install.js --install
+
+echo Build node-sodium module
+Build node-sodium module
+node defines.js
+Extracting DEFINES from Libsodium make file...
+Detected system architecture x64
+Libsodium Makefile : ./deps/libsodium/Makefile
+Libsodium GYP template file deps/libsodium.gyp.in
+Writing output to GYP file deps/libsodium.gyp
+node-gyp rebuild
+make[1]: Entering directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/sodium/build'
+  CXX(target) Release/obj.target/sodium/src/crypto_aead.o
+./Release/.deps/Release/obj.target/sodium/src/crypto_aead.o.d.raw { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 0,
+  gid: 0,
+  rdev: 0,
+  blksize: 4096,
+  ino: 15341600,
+  size: 5750,
+  blocks: 16,
+  atime: 2018-03-28T10:22:12.000Z,
+  mtime: 2018-03-28T10:22:12.000Z,
+  ctime: 2018-03-28T10:22:12.434Z,
+  birthtime: 2018-03-28T10:22:12.434Z }
+  CXX(target) Release/obj.target/sodium/src/crypto_sign.o
+./Release/.deps/Release/obj.target/sodium/src/crypto_sign.o.d.raw { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 0,
+  gid: 0,
+  rdev: 0,
+  blksize: 4096,
+  ino: 15341600,
+  size: 5758,
+  blocks: 16,
+  atime: 2018-03-28T10:22:13.000Z,
+  mtime: 2018-03-28T10:22:13.000Z,
+  ctime: 2018-03-28T10:22:13.430Z,
+  birthtime: 2018-03-28T10:22:13.430Z }
+  CXX(target) Release/obj.target/sodium/src/crypto_sign_ed25519.o
+./Release/.deps/Release/obj.target/sodium/src/crypto_sign_ed25519.o.d.raw { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 0,
+  gid: 0,
+  rdev: 0,
+  blksize: 4096,
+  ino: 15341600,
+  size: 5734,
+  blocks: 16,
+  atime: 2018-03-28T10:22:14.000Z,
+  mtime: 2018-03-28T10:22:14.000Z,
+  ctime: 2018-03-28T10:22:14.730Z,
+  birthtime: 2018-03-28T10:22:14.730Z }
+  CXX(target) Release/obj.target/sodium/src/crypto_box.o
+./Release/.deps/Release/obj.target/sodium/src/crypto_box.o.d.raw { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 0,
+  gid: 0,
+  rdev: 0,
+  blksize: 4096,
+  ino: 15341600,
+  size: 5716,
+  blocks: 16,
+  atime: 2018-03-28T10:22:16.000Z,
+  mtime: 2018-03-28T10:22:16.000Z,
+  ctime: 2018-03-28T10:22:16.826Z,
+  birthtime: 2018-03-28T10:22:16.826Z }
+  CXX(target) Release/obj.target/sodium/src/crypto_box_curve25519xsalsa20poly1305.o
+./Release/.deps/Release/obj.target/sodium/src/crypto_box_curve25519xsalsa20poly1305.o.d.raw { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 0,
+  gid: 0,
+  rdev: 0,
+  blksize: 4096,
+  ino: 15341600,
+  size: 5773,
+  blocks: 16,
+  atime: 2018-03-28T10:22:18.000Z,
+  mtime: 2018-03-28T10:22:18.000Z,
+  ctime: 2018-03-28T10:22:18.294Z,
+  birthtime: 2018-03-28T10:22:18.294Z }
+  CXX(target) Release/obj.target/sodium/src/sodium_runtime.o
+./Release/.deps/Release/obj.target/sodium/src/sodium_runtime.o.d.raw { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 0,
+  gid: 0,
+  rdev: 0,
+  blksize: 4096,
+  ino: 15341600,
+  size: 5724,
+  blocks: 16,
+  atime: 2018-03-28T10:22:19.000Z,
+  mtime: 2018-03-28T10:22:19.000Z,
+  ctime: 2018-03-28T10:22:19.350Z,
+  birthtime: 2018-03-28T10:22:19.350Z }
+  CXX(target) Release/obj.target/sodium/src/crypto_auth.o
+./Release/.deps/Release/obj.target/sodium/src/crypto_auth.o.d.raw { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 0,
+  gid: 0,
+  rdev: 0,
+  blksize: 4096,
+  ino: 15341600,
+  size: 5756,
+  blocks: 16,
+  atime: 2018-03-28T10:22:20.000Z,
+  mtime: 2018-03-28T10:22:20.000Z,
+  ctime: 2018-03-28T10:22:20.290Z,
+  birthtime: 2018-03-28T10:22:20.290Z }
+  CXX(target) Release/obj.target/sodium/src/crypto_auth_algos.o
+./Release/.deps/Release/obj.target/sodium/src/crypto_auth_algos.o.d.raw { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 0,
+  gid: 0,
+  rdev: 0,
+  blksize: 4096,
+  ino: 15341600,
+  size: 5768,
+  blocks: 16,
+  atime: 2018-03-28T10:22:21.000Z,
+  mtime: 2018-03-28T10:22:21.000Z,
+  ctime: 2018-03-28T10:22:21.826Z,
+  birthtime: 2018-03-28T10:22:21.826Z }
+  CXX(target) Release/obj.target/sodium/src/crypto_core.o
+./Release/.deps/Release/obj.target/sodium/src/crypto_core.o.d.raw { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 0,
+  gid: 0,
+  rdev: 0,
+  blksize: 4096,
+  ino: 15341600,
+  size: 5750,
+  blocks: 16,
+  atime: 2018-03-28T10:22:23.000Z,
+  mtime: 2018-03-28T10:22:23.000Z,
+  ctime: 2018-03-28T10:22:23.182Z,
+  birthtime: 2018-03-28T10:22:23.182Z }
+  CXX(target) Release/obj.target/sodium/src/crypto_scalarmult_curve25519.o
+./Release/.deps/Release/obj.target/sodium/src/crypto_scalarmult_curve25519.o.d.raw { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 0,
+  gid: 0,
+  rdev: 0,
+  blksize: 4096,
+  ino: 15341600,
+  size: 5752,
+  blocks: 16,
+  atime: 2018-03-28T10:22:24.000Z,
+  mtime: 2018-03-28T10:22:24.000Z,
+  ctime: 2018-03-28T10:22:24.230Z,
+  birthtime: 2018-03-28T10:22:24.230Z }
+  CXX(target) Release/obj.target/sodium/src/crypto_scalarmult.o
+./Release/.deps/Release/obj.target/sodium/src/crypto_scalarmult.o.d.raw { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 0,
+  gid: 0,
+  rdev: 0,
+  blksize: 4096,
+  ino: 15341600,
+  size: 5779,
+  blocks: 16,
+  atime: 2018-03-28T10:22:25.000Z,
+  mtime: 2018-03-28T10:22:25.000Z,
+  ctime: 2018-03-28T10:22:25.154Z,
+  birthtime: 2018-03-28T10:22:25.154Z }
+  CXX(target) Release/obj.target/sodium/src/crypto_secretbox_xsalsa20poly1305.o
+./Release/.deps/Release/obj.target/sodium/src/crypto_secretbox_xsalsa20poly1305.o.d.raw { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 0,
+  gid: 0,
+  rdev: 0,
+  blksize: 4096,
+  ino: 15341600,
+  size: 5762,
+  blocks: 16,
+  atime: 2018-03-28T10:22:26.000Z,
+  mtime: 2018-03-28T10:22:26.000Z,
+  ctime: 2018-03-28T10:22:26.322Z,
+  birthtime: 2018-03-28T10:22:26.322Z }
+  CXX(target) Release/obj.target/sodium/src/crypto_secretbox.o
+./Release/.deps/Release/obj.target/sodium/src/crypto_secretbox.o.d.raw { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 0,
+  gid: 0,
+  rdev: 0,
+  blksize: 4096,
+  ino: 15341600,
+  size: 5728,
+  blocks: 16,
+  atime: 2018-03-28T10:22:27.000Z,
+  mtime: 2018-03-28T10:22:27.000Z,
+  ctime: 2018-03-28T10:22:27.706Z,
+  birthtime: 2018-03-28T10:22:27.706Z }
+  CXX(target) Release/obj.target/sodium/src/sodium.o
+./Release/.deps/Release/obj.target/sodium/src/sodium.o.d.raw { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 0,
+  gid: 0,
+  rdev: 0,
+  blksize: 4096,
+  ino: 15341600,
+  size: 5749,
+  blocks: 16,
+  atime: 2018-03-28T10:22:28.000Z,
+  mtime: 2018-03-28T10:22:28.000Z,
+  ctime: 2018-03-28T10:22:28.582Z,
+  birthtime: 2018-03-28T10:22:28.582Z }
+  CXX(target) Release/obj.target/sodium/src/crypto_stream.o
+./Release/.deps/Release/obj.target/sodium/src/crypto_stream.o.d.raw { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 0,
+  gid: 0,
+  rdev: 0,
+  blksize: 4096,
+  ino: 15341600,
+  size: 5757,
+  blocks: 16,
+  atime: 2018-03-28T10:22:29.000Z,
+  mtime: 2018-03-28T10:22:29.000Z,
+  ctime: 2018-03-28T10:22:29.530Z,
+  birthtime: 2018-03-28T10:22:29.530Z }
+  CXX(target) Release/obj.target/sodium/src/crypto_streams.o
+In file included from ../src/crypto_streams.cc:9:0:
+../src/crypto_streams.cc: In function ‘Nan::NAN_METHOD_RETURN_TYPE bind_crypto_stream_salsa208(Nan::NAN_METHOD_ARGS_TYPE)’:
+../src/include/crypto_streams.h:19:13: warning: ‘int crypto_stream_salsa208(unsigned char*, long long unsigned int, const unsigned char*, const unsigned char*)’ is deprecated (declared at ../deps/build/include/sodium/crypto_stream_salsa208.h:38) [-Wdeprecated-declarations]
+         if (crypto_stream_ ## ALGO (stream_ptr, slen, nonce, key) == 0) { \
+             ^
+../src/crypto_streams.cc:16:1: note: in expansion of macro ‘CRYPTO_STREAM_DEF’
+ CRYPTO_STREAM_DEF(salsa208)
+ ^
+../src/include/crypto_streams.h:19:65: warning: ‘int crypto_stream_salsa208(unsigned char*, long long unsigned int, const unsigned char*, const unsigned char*)’ is deprecated (declared at ../deps/build/include/sodium/crypto_stream_salsa208.h:38) [-Wdeprecated-declarations]
+         if (crypto_stream_ ## ALGO (stream_ptr, slen, nonce, key) == 0) { \
+                                                                 ^
+../src/crypto_streams.cc:16:1: note: in expansion of macro ‘CRYPTO_STREAM_DEF’
+ CRYPTO_STREAM_DEF(salsa208)
+ ^
+../src/crypto_streams.cc: In function ‘Nan::NAN_METHOD_RETURN_TYPE bind_crypto_stream_salsa208_xor(Nan::NAN_METHOD_ARGS_TYPE)’:
+../src/include/crypto_streams.h:31:13: warning: ‘int crypto_stream_salsa208_xor(unsigned char*, const unsigned char*, long long unsigned int, const unsigned char*, const unsigned char*)’ is deprecated (declared at ../deps/build/include/sodium/crypto_stream_salsa208.h:43) [-Wdeprecated-declarations]
+         if (crypto_stream_ ## ALGO ## _xor(ctxt_ptr, message, message_size, nonce, key) == 0) { \
+             ^
+../src/crypto_streams.cc:16:1: note: in expansion of macro ‘CRYPTO_STREAM_DEF’
+ CRYPTO_STREAM_DEF(salsa208)
+ ^
+../src/include/crypto_streams.h:31:87: warning: ‘int crypto_stream_salsa208_xor(unsigned char*, const unsigned char*, long long unsigned int, const unsigned char*, const unsigned char*)’ is deprecated (declared at ../deps/build/include/sodium/crypto_stream_salsa208.h:43) [-Wdeprecated-declarations]
+         if (crypto_stream_ ## ALGO ## _xor(ctxt_ptr, message, message_size, nonce, key) == 0) { \
+                                                                                       ^
+../src/crypto_streams.cc:16:1: note: in expansion of macro ‘CRYPTO_STREAM_DEF’
+ CRYPTO_STREAM_DEF(salsa208)
+ ^
+./Release/.deps/Release/obj.target/sodium/src/crypto_streams.o.d.raw { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 0,
+  gid: 0,
+  rdev: 0,
+  blksize: 4096,
+  ino: 15341600,
+  size: 5759,
+  blocks: 16,
+  atime: 2018-03-28T10:22:31.000Z,
+  mtime: 2018-03-28T10:22:31.000Z,
+  ctime: 2018-03-28T10:22:31.318Z,
+  birthtime: 2018-03-28T10:22:31.318Z }
+  CXX(target) Release/obj.target/sodium/src/helpers.o
+./Release/.deps/Release/obj.target/sodium/src/helpers.o.d.raw { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 0,
+  gid: 0,
+  rdev: 0,
+  blksize: 4096,
+  ino: 15341600,
+  size: 5710,
+  blocks: 16,
+  atime: 2018-03-28T10:22:32.000Z,
+  mtime: 2018-03-28T10:22:32.000Z,
+  ctime: 2018-03-28T10:22:32.706Z,
+  birthtime: 2018-03-28T10:22:32.706Z }
+  CXX(target) Release/obj.target/sodium/src/randombytes.o
+./Release/.deps/Release/obj.target/sodium/src/randombytes.o.d.raw { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 0,
+  gid: 0,
+  rdev: 0,
+  blksize: 4096,
+  ino: 15341600,
+  size: 5718,
+  blocks: 16,
+  atime: 2018-03-28T10:22:33.000Z,
+  mtime: 2018-03-28T10:22:33.000Z,
+  ctime: 2018-03-28T10:22:33.754Z,
+  birthtime: 2018-03-28T10:22:33.754Z }
+  CXX(target) Release/obj.target/sodium/src/crypto_pwhash.o
+./Release/.deps/Release/obj.target/sodium/src/crypto_pwhash.o.d.raw { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 0,
+  gid: 0,
+  rdev: 0,
+  blksize: 4096,
+  ino: 15341600,
+  size: 5722,
+  blocks: 16,
+  atime: 2018-03-28T10:22:35.000Z,
+  mtime: 2018-03-28T10:22:35.000Z,
+  ctime: 2018-03-28T10:22:35.262Z,
+  birthtime: 2018-03-28T10:22:35.262Z }
+  CXX(target) Release/obj.target/sodium/src/crypto_hash.o
+./Release/.deps/Release/obj.target/sodium/src/crypto_hash.o.d.raw { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 0,
+  gid: 0,
+  rdev: 0,
+  blksize: 4096,
+  ino: 15341600,
+  size: 5718,
+  blocks: 16,
+  atime: 2018-03-28T10:22:36.000Z,
+  mtime: 2018-03-28T10:22:36.000Z,
+  ctime: 2018-03-28T10:22:36.226Z,
+  birthtime: 2018-03-28T10:22:36.226Z }
+  CXX(target) Release/obj.target/sodium/src/crypto_hash_sha256.o
+./Release/.deps/Release/obj.target/sodium/src/crypto_hash_sha256.o.d.raw { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 0,
+  gid: 0,
+  rdev: 0,
+  blksize: 4096,
+  ino: 15341600,
+  size: 5732,
+  blocks: 16,
+  atime: 2018-03-28T10:22:37.000Z,
+  mtime: 2018-03-28T10:22:37.000Z,
+  ctime: 2018-03-28T10:22:37.270Z,
+  birthtime: 2018-03-28T10:22:37.270Z }
+  CXX(target) Release/obj.target/sodium/src/crypto_hash_sha512.o
+./Release/.deps/Release/obj.target/sodium/src/crypto_hash_sha512.o.d.raw { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 0,
+  gid: 0,
+  rdev: 0,
+  blksize: 4096,
+  ino: 15341600,
+  size: 5732,
+  blocks: 16,
+  atime: 2018-03-28T10:22:38.000Z,
+  mtime: 2018-03-28T10:22:38.000Z,
+  ctime: 2018-03-28T10:22:38.302Z,
+  birthtime: 2018-03-28T10:22:38.302Z }
+  CXX(target) Release/obj.target/sodium/src/crypto_shorthash.o
+./Release/.deps/Release/obj.target/sodium/src/crypto_shorthash.o.d.raw { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 0,
+  gid: 0,
+  rdev: 0,
+  blksize: 4096,
+  ino: 15341600,
+  size: 5728,
+  blocks: 16,
+  atime: 2018-03-28T10:22:39.000Z,
+  mtime: 2018-03-28T10:22:39.000Z,
+  ctime: 2018-03-28T10:22:39.358Z,
+  birthtime: 2018-03-28T10:22:39.358Z }
+  CXX(target) Release/obj.target/sodium/src/crypto_shorthash_siphash24.o
+./Release/.deps/Release/obj.target/sodium/src/crypto_shorthash_siphash24.o.d.raw { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 0,
+  gid: 0,
+  rdev: 0,
+  blksize: 4096,
+  ino: 15341600,
+  size: 5748,
+  blocks: 16,
+  atime: 2018-03-28T10:22:40.000Z,
+  mtime: 2018-03-28T10:22:40.000Z,
+  ctime: 2018-03-28T10:22:40.322Z,
+  birthtime: 2018-03-28T10:22:40.322Z }
+  CXX(target) Release/obj.target/sodium/src/crypto_generichash.o
+./Release/.deps/Release/obj.target/sodium/src/crypto_generichash.o.d.raw { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 0,
+  gid: 0,
+  rdev: 0,
+  blksize: 4096,
+  ino: 15341600,
+  size: 5732,
+  blocks: 16,
+  atime: 2018-03-28T10:22:41.000Z,
+  mtime: 2018-03-28T10:22:41.000Z,
+  ctime: 2018-03-28T10:22:41.466Z,
+  birthtime: 2018-03-28T10:22:41.466Z }
+  CXX(target) Release/obj.target/sodium/src/crypto_generichash_blake2b.o
+./Release/.deps/Release/obj.target/sodium/src/crypto_generichash_blake2b.o.d.raw { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 0,
+  gid: 0,
+  rdev: 0,
+  blksize: 4096,
+  ino: 15341600,
+  size: 5748,
+  blocks: 16,
+  atime: 2018-03-28T10:22:42.000Z,
+  mtime: 2018-03-28T10:22:42.000Z,
+  ctime: 2018-03-28T10:22:42.662Z,
+  birthtime: 2018-03-28T10:22:42.662Z }
+  CXX(target) Release/obj.target/sodium/src/crypto_onetimeauth.o
+./Release/.deps/Release/obj.target/sodium/src/crypto_onetimeauth.o.d.raw { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 0,
+  gid: 0,
+  rdev: 0,
+  blksize: 4096,
+  ino: 15341600,
+  size: 5780,
+  blocks: 16,
+  atime: 2018-03-28T10:22:43.000Z,
+  mtime: 2018-03-28T10:22:43.000Z,
+  ctime: 2018-03-28T10:22:43.618Z,
+  birthtime: 2018-03-28T10:22:43.618Z }
+  CXX(target) Release/obj.target/sodium/src/crypto_onetimeauth_poly1305.o
+./Release/.deps/Release/obj.target/sodium/src/crypto_onetimeauth_poly1305.o.d.raw { dev: 2049,
+  mode: 33188,
+  nlink: 1,
+  uid: 0,
+  gid: 0,
+  rdev: 0,
+  blksize: 4096,
+  ino: 15341600,
+  size: 5750,
+  blocks: 16,
+  atime: 2018-03-28T10:22:44.000Z,
+  mtime: 2018-03-28T10:22:44.000Z,
+  ctime: 2018-03-28T10:22:44.727Z,
+  birthtime: 2018-03-28T10:22:44.727Z }
+  SOLINK_MODULE(target) Release/obj.target/sodium.node
+  COPY Release/sodium.node
+make[1]: Leaving directory `/home/pankaj/Documents/BelerumCodebase/Belrium/node_modules/sodium/build'
+shift@6.4.1 /home/pankaj/Documents/BelerumCodebase/Belrium
+├── install@0.11.0  extraneous
+├── nan@2.2.1  extraneous
+└── sodium@2.0.3  extraneous
+
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90mapp.js[39m
+fs.js:642
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+
+Error: EACCES: permission denied, open '/home/aftab/.forever/hWkJ.log'
+    at Error (native)
+    at Object.fs.openSync (fs.js:642:18)
+    at Object.forever.startDaemon (/usr/lib/node_modules/forever/lib/forever.js:460:14)
+    at /usr/lib/node_modules/forever/lib/forever/cli.js:319:15
+    at /usr/lib/node_modules/forever/lib/forever/cli.js:162:5
+    at /usr/lib/node_modules/forever/lib/forever.js:412:11
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90mapp.js[39m
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90mapp.js[39m
+fs.js:642
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+
+Error: EACCES: permission denied, open '/home/aftab/.forever/kFRS.log'
+    at Error (native)
+    at Object.fs.openSync (fs.js:642:18)
+    at Object.forever.startDaemon (/usr/lib/node_modules/forever/lib/forever.js:460:14)
+    at /usr/lib/node_modules/forever/lib/forever/cli.js:319:15
+    at /usr/lib/node_modules/forever/lib/forever/cli.js:162:5
+    at /usr/lib/node_modules/forever/lib/forever.js:412:11
+    at FSReqWrap.oncomplete (fs.js:123:15)
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90mapp.js[39m
